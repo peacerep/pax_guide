@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>PA-X | Guide to peace agreement data</title><link href="guide.css" rel="stylesheet"/><script defer="" src="assets/guide-data.js"></script><script defer="" src="public-guide.js"></script><link href="assets/pax-circle-icon.ico" rel="icon" type="image/x-icon"/><link href="assets/pax-circle-icon.png" rel="icon" type="image/png"/></head><body><a class="skip" href="#main">Skip to content</a><header class="masthead"><a class="brand" href="index.html"><img alt="PA-X" src="assets/pax-brand.png"/><span>A guide to peace agreement data</span></a><a href="https://peacerep.org/" rel="noopener noreferrer" target="_blank"><img alt="PeaceRep" class="peacerep" src="assets/peacerep-brand.png"/></a></header><div class="utility"><span>Reader’s guide · Review edition · September 2026</span><div><a href="exports/PA-X-guide.pdf" rel="noopener noreferrer" target="_blank">Download guide PDF</a><button id="print" type="button">Print / save PDF</button></div></div><div class="navigation-shell"><nav aria-label="Main navigation" class="nav site-navigation"><a aria-current="page" data-page="guide" href="index.html"><strong>PA-X guide</strong><small>Learn, investigate and interpret</small></a><a data-page="reference" href="terminology.html"><strong>Terminology reference</strong><small>Metadata, topic definitions and CSV codes</small></a></nav><div class="page-context"><nav aria-label="Breadcrumb" class="breadcrumbs"><a href="index.html">PA-X guide</a><span aria-hidden="true">/</span><span aria-current="location" id="current-section">Overview</span></nav><details class="page-contents"><summary>Sections</summary><nav aria-label="Guide sections"><a data-section="start" href="#start">Overview</a><a data-section="data" href="#data">The data</a><a data-section="resources" href="#resources">Resources</a><a data-section="tools" href="#tools">Tools and visualisations</a><a data-section="linking-data" href="#linking-data">Linking datasets</a><a data-section="making" href="#making">Methodology</a><a data-section="concepts" href="#concepts">Understanding terminology</a><a data-section="questions" href="#questions">Research questions</a><a data-section="planner" href="#planner">Build a search</a><a data-section="interpret" href="#interpret">Interpretation</a><a data-section="briefing" href="#briefing">Policy briefings</a><a data-section="sources" href="#sources">Sources and citation</a></nav></details></div></div><div class="guide-layout"><aside class="section-rail"><div class="rail-sticky"><p class="rail-title">In this guide</p><p class="rail-progress" id="rail-progress">Section 1 of 12</p><nav aria-label="Guide sections" class="rail-nav"><a data-section="start" href="#start">Overview</a><a data-section="data" href="#data">The data</a><a data-section="resources" href="#resources">Resources</a><a data-section="tools" href="#tools">Tools and visualisations</a><a data-section="linking-data" href="#linking-data">Linking datasets</a><a data-section="making" href="#making">Methodology</a><a data-section="concepts" href="#concepts">Understanding terminology</a><a data-section="questions" href="#questions">Research questions</a><a data-section="planner" href="#planner">Build a search</a><a data-section="interpret" href="#interpret">Interpretation</a><a data-section="briefing" href="#briefing">Policy briefings</a><a data-section="sources" href="#sources">Sources and citation</a></nav></div></aside><main id="main"><section class="hero chapter" id="start"><div><p class="eyebrow">Understand · Investigate · Interpret</p><h1>A guide to PA-X peace agreement data</h1><p class="lead">Discover what PA-X records, find the agreements that matter to your question, and understand how to interpret them.</p><div class="actions"><a class="button" href="#planner">Build a PA-X search ↗</a><a href="#briefing">Start with a country briefing →</a></div><p class="small">For researchers, students, practitioners, country teams and people encountering PA-X for the first time.</p></div><div class="hero-diagram"><p class="diagram-kicker">Three connected layers of evidence</p><div class="diagram-node">Agreement text<small>What was agreed?</small></div><div aria-hidden="true" class="connector">↕</div><div class="diagram-pair"><div>Coded metadata<small>Where, when, who, which process?</small></div><div>Coded provisions<small>What issues does it address?</small></div></div><div aria-hidden="true" class="connector">↓</div><div class="diagram-node outline">Your research question<small>Find · Read · Compare · Interpret</small></div></div></section>
+<section class="intro-band"><p class="eyebrow">The short introduction</p><h2>Peace agreement data for research and policy</h2><div class="columns"><p>PA-X brings peace agreement texts together with information about their context and expert coding of their content. It supports both close reading and investigation of patterns across agreements and processes.</p><p>Developed by researchers at the University of Edinburgh through PeaceRep, it helps mediators, civic actors, policy teams and researchers explore how agreements address conflict. <a href="#s-about">[1]</a></p></div><div class="stats"><div><strong>2,257</strong><span>agreements in main PA-X</span></div><div><strong>1990–2025</strong><span>agreement coverage</span></div><div><strong>Read + analyse</strong><span>documents, metadata and provisions</span></div></div><p class="small">v10 (2026)</p></section><section class="chapter" id="data"><p class="eyebrow">01 / Get to know the data</p><h2>The agreement record</h2><p class="section-lead">PA-X uses the agreement as its basic unit. Its text, context and provisions give you different ways to find and understand it.</p><aside class="corpus-explorer" id="corpus-explorer"><p class="eyebrow">Explore the document collection</p><h3>Browse PA-X agreements visually</h3><p>The PA-X corpus viewer brings agreement documents together on a visual timeline. Start with the collection as a whole, filter by recorded metadata, then zoom into individual documents.</p><ol class="corpus-steps"><li><strong>Orient by date.</strong> The Time view positions agreements by when they were signed.</li><li><strong>Narrow the collection.</strong> Use the metadata filters to explore places, conflict classifications or agreement stages.</li><li><strong>Inspect a document.</strong> Zoom into its first-page image and open its details for links to the PDF and PA-X record.</li></ol><div class="actions"><button aria-controls="corpus-viewer-host" aria-expanded="false" class="button" id="load-corpus-viewer" type="button">Explore the corpus here</button><a href="https://peacerep.github.io/peacerep_vikus/#" rel="noopener noreferrer" target="_blank">Open the full-screen corpus viewer</a></div><div class="no-print" id="corpus-viewer-host"></div><p class="small">The images show the first page of the English-language document or translation. The original PDFs and PA-X records provide the document detail. Developed for PA-X by Tomas Vancisin and Niamh Henry, using VIKUS Viewer.</p><p class="corpus-print-link">Explore online: <a href="https://peacerep.github.io/peacerep_vikus/" rel="noopener noreferrer" target="_blank">PA-X corpus viewer</a>.</p></aside><figure class="agreement-visual"><div class="record-paper"><p class="eyebrow">A real agreement / PA-X 152</p><div aria-hidden="true" class="document-symbol"><span></span><span></span><span></span></div><h3>Acuerdo Final entre el Gobierno Nacional y el Partido Revolucionario de los Trabajadores, don Gabriel, Ovejas, Sucre</h3><p class="record-date">25 January 1991</p><a href="https://www.peaceagreements.org/agreements/152/" rel="noopener noreferrer" target="_blank">Open the agreement record</a></div><div class="record-connections"><div><span class="record-marker">01</span><h4>Agreement text</h4><p>The agreement text sets out the commitments. Read the original document and its coded passages.</p></div><div><span class="record-marker">02</span><h4>Agreement context</h4><p>Colombia / Colombia I - Gaviria process<br/><code>AgtId = 152</code> <code>PP = 97</code></p></div><div><span class="record-marker">03</span><h4>Coded provisions</h4><p>Rebels transitioning to political parties<br/><code>PolParTrans = 1</code></p><a href="terminology.html?term=PolParTrans#topics">Read the topic definition</a></div></div><figcaption>Illustrated record using agreement 152 and its main CSV values. The document shape is a visual guide, not a reproduction of the agreement.</figcaption></figure><div class="data-map"><article><span class="number">01</span><h3>The agreement</h3><p>A document with a name, date and connection to a peace process.</p><dl><dt>A stable identifier</dt><dd><code>AgtId</code> in the CSV is also the number in the website record address: <code>/agreements/152/</code>.</dd><dt>Name and date</dt><dd><code>Agt</code> and <code>Dat</code></dd><dt>The process it belongs to</dt><dd><code>PP</code> and <code>PPName</code> identify its peace process.</dd></dl></article><article><span class="number">02</span><h3>Coded metadata</h3><p>Information that situates the agreement within a conflict and peace process.</p><dl><dt>Type and stage</dt><dd>Interstate, intrastate or local; stage and substage; agreement status.</dd><dt>Location</dt><dd>Country/entity, region and location identifiers, including ISO and GWNO codes where available.</dd><dt>Signatories</dt><dd><code>Part</code> and <code>ThrdPart</code> record parties and third parties as listed in the agreement.</dd></dl></article><article><span class="number">03</span><h3>Coded provisions</h3><p>Expert coding helps you find agreements and passages on an issue without reading every document first.</p><dl><dt>Subjects include</dt><dd>Governance, gender, security, power sharing, groups and transitional justice.</dd><dt>Explore the detail</dt><dd>Move from a broad topic to more specific kinds of provision.</dd></dl><a href="terminology.html#topics">Browse all topics and descriptions →</a></article></div><p class="source-line">Field meanings and classifications: <a href="#s-codebook">[3]</a>. Search labels and CSV names are shown together in the <a href="terminology.html#metadata">terminology reference</a>.</p><aside class="resource-next"><h4>Agreement locations and dates</h4><p><a href="https://www.peaceagreements.org/visualizations/agreements-process-map/" rel="noopener noreferrer" target="_blank">The agreement map and timeline</a> shows where and when agreements are recorded, with visual summaries of their coded content. Use it to orient your question before opening individual records.</p></aside>
+</section><section class="chapter" id="resources"><p class="eyebrow">Choose your resource</p><h2>PA-X collections and resources</h2><p class="section-lead">Start with the collection closest to your question. Specialist collections add a different focus or more detail.</p><div class="resource-grid">
+<article class="resource-card"><img alt="PA-X" src="assets/pax-brand.png"/><h3>Main PA-X</h3><p><strong>Includes:</strong> agreement texts, contextual information and coding across substantive issues.</p><p><strong>Use it to:</strong> find commitments, follow a peace process, or compare carefully defined groups of agreements.</p><p><strong>Remember:</strong> what a document promises and what later happens are different questions.</p><a href="https://www.peaceagreements.org/agreements/search/" rel="noopener noreferrer" target="_blank">Search agreements ↗</a> · <a href="https://www.peaceagreements.org/downloads/#pax" rel="noopener noreferrer" target="_blank">Data and codebook ↗</a></article>
+<article class="resource-card"><img alt="PA-X Gender" src="assets/gender-brand.png"/><h3>PA-X Gender</h3><p><strong>Includes:</strong> agreements with provisions on women, girls, gender or sexual violence, with more detailed gender coding.</p><p><strong>Use it to:</strong> distinguish participation, equality, protection and other kinds of gender-related commitment.</p><p><strong>Remember:</strong> a gender-focused collection cannot show the share of all agreements that mention gender without also considering the wider collection.</p><a href="https://www.peaceagreements.org/agreements/wggsearch/" rel="noopener noreferrer" target="_blank">Search gender provisions ↗</a> · <a href="terminology.html?dataset=wgg#topics">Explore its topics →</a> · <a href="https://www.peaceagreements.org/downloads/#pax-gender" rel="noopener noreferrer" target="_blank">Data and codebook ↗</a></article>
+<article class="resource-card"><img alt="PA-X Local" src="assets/local-brand.png"/><h3>PA-X Local</h3><p><strong>Includes:</strong> documented agreements addressing local issues, involving local actors and local or communal conflict.</p><p><strong>Use it to:</strong> explore local peacemaking and its relationship to wider processes.</p><p><strong>Remember:</strong> informal, unwritten or unavailable agreements are not all captured. The collection is not a census of local peacemaking.</p><a href="https://www.peaceagreements.org/agreements/lsearch/" rel="noopener noreferrer" target="_blank">Search local agreements ↗</a> · <a href="https://www.peaceagreements.org/visualizations/local-agreements/" rel="noopener noreferrer" target="_blank">Explore the map ↗</a> · <a href="https://www.peaceagreements.org/downloads/#pax-local" rel="noopener noreferrer" target="_blank">Data and codebook ↗</a></article>
+<article class="resource-card" id="paax-resource"><img alt="PAA-X" src="assets/paax-brand.png"/><h3>PAA-X Actors</h3><p><strong>Includes:</strong> structured actor information and signing relationships linked to PA-X agreements.</p><p><strong>Use it to:</strong> work with structured signatory records across agreements, where the original documents may use different names, titles or references for an actor.</p><p><strong>Remember:</strong> signatories do not capture everyone who negotiated, influenced or participated in a process.</p><a href="https://datashare.ed.ac.uk/items/8b4b563a-3993-42e1-b867-7d3b67353919" rel="noopener noreferrer" target="_blank">Explore the published dataset ↗</a><p><a href="https://www.peaceagreements.org/tracker/afghanistan/actors/" rel="noopener noreferrer" target="_blank">Explore an actor network in Tracker</a></p></article></div>
+<div class="callout"><h3>Searching and analysing agreement text</h3><p>On <a href="https://www.peaceagreements.org/agreements/search/" rel="noopener noreferrer" target="_blank">PA-X Search</a>, use <strong>Agreement text (free text search)</strong> to search the body of agreement documents. Combine this with location, date or topic filters to focus your selection.</p><p>For text analysis in your own tools, download the <strong>PA-X Corpus</strong> and connect it to the quantitative data using <code>AgtId</code>. The dedicated Excel Corpus file splits long documents across columns.</p><a href="https://www.peaceagreements.org/downloads/#pax-corpus" rel="noopener noreferrer" target="_blank">Corpus data and codebook</a><p><a href="#corpus-explorer">Browse the agreement collection visually</a> to move from the collection overview to individual document images and records.</p></div><div class="columns remember-notes"><aside aria-label="Country/entity" class="remember-note"><p class="remember-label"><span aria-hidden="true" class="info-icon">i</span>About this field</p><h3>Country/entity</h3><p><code>Con</code> identifies the country or jurisdiction in which the conflict originated, or the entity to which a territorial conflict relates. For interstate agreements addressing interstate conflict, PA-X lists the states signing or publicly agreeing the agreement.</p></aside><aside aria-label="Parties and third parties" class="remember-note"><p class="remember-label"><span aria-hidden="true" class="info-icon">i</span>About this field</p><h3>Parties and third parties</h3><p><code>Part</code> and <code>ThrdPart</code> preserve names as written in the agreement. Third-party roles, such as witness or guarantor, follow the document wording. PA-X adds explanatory notes for unsigned documents and other special cases.</p><p class="signatory-next">Names, titles and references can vary across documents. Use <a href="#paax-resource">PAA-X</a> for structured signatory data and explore <a href="#tracker-networks">signatory networks in Tracker</a>.</p></aside></div><p class="source-line">Collection descriptions: <a href="#s-downloads">[2]</a>; actor resource: <a href="#s-actors">[7]</a>.</p></section><section class="chapter" id="tools"><p class="eyebrow">Explore further</p><h2>Visualisations and analytical tools</h2><div class="resource-grid"><article class="resource-card"><h3>Messy Peace Processes</h3><p>Explore how agreement stages unfold through a process, then return to the source agreements. Chart movement does not measure progress or success.</p><a href="https://129.215.193.6/" rel="noopener noreferrer" target="_blank">Explore process sequences ↗</a></article><article class="resource-card"><h3>PA-X Local Agreements Map</h3><p>Explore the geography of documented local agreements. Concentrations on a map also reflect which documents could be collected.</p><a href="https://www.peaceagreements.org/visualizations/local-agreements/" rel="noopener noreferrer" target="_blank">Explore local agreements ↗</a></article><article class="resource-card"><h3>Gender insights</h3><p>Explore a visual account of gender-related provisions. Read what each chart counts and the selection it covers.</p><a href="https://www.peaceagreements.org/visualizations/gender-vis/" rel="noopener noreferrer" target="_blank">Explore gender insights ↗</a></article><article class="resource-card"><h3>Third-party involvement</h3><p>Investigate recorded third-party involvement across agreements. A signing role alone does not establish influence or effectiveness.</p><a href="https://www.peaceagreements.org/visualizations/third-party-scroll/" rel="noopener noreferrer" target="_blank">Explore third-party patterns ↗</a></article><article class="resource-card" id="tracker-networks"><h3>PA-X Tracker: signatory networks</h3><p>Explore connections between agreements and their party and third-party signatories. Select an actor to investigate the agreements they signed, or an agreement to see its signatories. Tracker also brings agreement information alongside contextual indicators.</p><a href="https://www.peaceagreements.org/tracker/afghanistan/actors/" rel="noopener noreferrer" target="_blank">Explore the Afghanistan actor network</a><p><a href="https://www.peaceagreements.org/tracker/" rel="noopener noreferrer" target="_blank">Browse Tracker countries</a> / <a href="https://www.peaceagreements.org/about-tracker/" rel="noopener noreferrer" target="_blank">Guidance and sources</a></p></article><article class="resource-card"><h3>Provenance of Peacebuilding</h3><p>Explore the collection, language work, coding and review behind the data, and how it supports further research.</p><a href="https://tvancisin.github.io/provenance/" rel="noopener noreferrer" target="_blank">Explore how PA-X is made ↗</a></article></div></section><section class="chapter interoperability" id="linking-data"><p class="eyebrow">Connect your data</p><h2>Linking PA-X to other datasets</h2><p>Use the recorded identifiers below to link datasets. Keep <code>AgtId</code> with your results so each match can be traced to its PA-X agreement.</p><div class="table-wrap"><table><thead><tr><th>Dataset or code system</th><th>PA-X CSV columns</th><th>What to match</th></tr></thead><tbody><tr><td><a href="https://ucdp.uu.se/downloads/" rel="noopener noreferrer" target="_blank">UCDP</a></td><td><code>UcdpCon / UcdpAgr</code></td><td>Match UcdpCon to the conflict identifier (conflict_id), and UcdpAgr to the peace agreement identifier (paid in the UCDP Peace Agreement Dataset v19.1). Choose the appropriate UCDP dataset and version.</td></tr><tr><td><a href="https://peaceaccords.nd.edu/" rel="noopener noreferrer" target="_blank">Peace Accords Matrix (PAM)</a></td><td><code>PamAgr</code></td><td>Match the recorded PAM agreement identifier to the agreement ID in your chosen PAM export. Confirm the agreement name and date; PAM focuses on comprehensive agreements.</td></tr><tr><td><a href="https://correlatesofwar.org/data-sets/cow-war/" rel="noopener noreferrer" target="_blank">Correlates of War</a></td><td><code>CowWar</code></td><td>Match the recorded war number to the war-number field in the relevant COW war dataset. Several PA-X agreements can relate to the same war.</td></tr><tr><td><a href="https://www.iso.org/iso-3166-country-codes.html" rel="noopener noreferrer" target="_blank">ISO country codes</a></td><td><code>Loc1ISO / Loc2ISO</code></td><td>Match the three-letter country designation to an ISO alpha-3 column, such as COL for Colombia. Include the relevant year when joining country-year data.</td></tr><tr><td><a href="https://ksgleditsch.com/statelist.html" rel="noopener noreferrer" target="_blank">Gleditsch-Ward country codes</a></td><td><code>Loc1GWNO / Loc2GWNO</code></td><td>Match the numeric Gleditsch-Ward country code, such as 100 for Colombia. Check historical state coverage and the year of your observations.</td></tr></tbody></table></div><p class="small">Prepare the merge: align identifier formats (for example, <code>100.0</code> and <code>100</code>), retain missing values as missing, and check repeated IDs before joining. A match can produce several rows per agreement, especially with country-year or event data. Choose the time period and unit of analysis explicitly. The location slots indicate the recorded locations; assignment to slot 1 or 2 does not rank their importance.</p><p class="source-line"><a href="https://www.peaceagreements.org/cms/documents/3956/PA_X_codebook_v10.pdf#page=23" rel="noopener noreferrer" target="_blank">PA-X linking-field definitions</a> / <a href="https://ucdp.uu.se/downloads/peace/ucdp-codebook-peace-agreements-191.pdf#page=2" rel="noopener noreferrer" target="_blank">UCDP agreement identifiers</a> / <a href="terminology.html?term=UcdpCon#metadata">Explore the metadata fields</a></p></section><section class="chapter tinted" id="making"><p class="eyebrow">02 / Behind the data</p><h2>How PA-X data is produced</h2><p class="section-lead">PA-X combines documentary research, substantive expertise and quality review. Click + on each step to see what the work involves, or open the full provenance visualisation.</p><div class="callout" id="inclusion-criteria"><h3>Which agreements are included?</h3><p>PA-X’s core definition concerns formal, publicly available documents agreed by some or all conflict protagonists and aimed at addressing conflict. The collection begins in 1990. Expert judgement is needed when applying these conditions. A variety of documents are archived and excluded from the main PA-X release.</p><p>The documented time rule covers agreements signed after 1 January 1990 addressing an ongoing conflict, or one that ended within the preceding 50 years. This includes some settlements reached long after fighting ended. <a href="https://peacerep.org/wp-content/uploads/2022/03/Badanjak_2021_PAX_PEACE_AGREEMENTS_DATABASE_REFLECTIONS_ON_DOCUMENTING_THE_PRACTICE_OF_PEACEMAKING.pdf#page=3" rel="noopener noreferrer" target="_blank">Read the methodology explanation (p.26) ?</a></p><p>The core conflict threshold is more than 25 conflict-related deaths in a year. PA-X also includes some local agreements outside that threshold. Agreement status can cover clearly agreed documents without conventional signatures, so a handwritten signature is not a universal entry requirement.</p><p><a href="https://www.peaceagreements.org/cms/documents/3916/What_does_PA_Include.pdf" rel="noopener noreferrer" target="_blank">Read the full inclusion guidance ↗</a> · <a href="https://www.peaceagreements.org/cms/documents/3956/PA_X_codebook_v10.pdf#page=15" rel="noopener noreferrer" target="_blank">Read definitions and status rules ↗</a></p></div><div aria-label="Data production stages" class="pipeline"><details id="collection-step" open=""><summary><b>1</b> Collect</summary><p>Peace agreement collection is an ongoing process that compiles documents from a wide range of sources, including official websites, NGO reports, books, news monitoring, social media, word of mouth and correspondence. Researchers draw on expertise in law and international relations.</p><p class="small">Recurring challenges include missed and non-written agreements, source bias, verifying information and deciding whether an agreement should be included.</p><a class="collection-inclusion-link" href="#inclusion-criteria">See which agreements are included</a></details><details><summary><b>2</b> Translate</summary><p>Peace agreements are often written in local languages. In these cases, domain and language experts translate the documents into English, drawing on interpretation, translation, legal terminology and country-specific context.</p><p class="small">Translation involves careful attention to meaning, including the risk of translation errors and misinterpretation.</p></details><details><summary><b>3</b> Transcribe</summary><p>Agreements come in various formats, including PDFs, Word documents and images. Their text often needs to be transcribed into plain text using optical character recognition (OCR), hand-typing, copy-and-paste or automated extraction.</p><p class="small">Transcription work addresses typographical errors, duplicate text, tables, handwriting and the removal of personal information.</p></details><details><summary><b>4</b> Code</summary><p>The plain text of the agreement is tagged according to the topics it covers, including socio-economic development, political or military power sharing, and gender. This work draws on expertise in political science, country context, conflict resolution, law and international relations.</p><p class="small">Coding questions include missed passages, missing data, interpretation of the coding manual and differences between coders.</p></details><details><summary><b>5</b> Quality control</summary><p>The tagged text goes through quality control to ensure that coding is consistent with the definitions of the topics. Reviewers with expertise in PA-X coding and context resolve coding questions and review decisions made during coding.</p><p class="small">This includes checking untagged passages, missing data, coding inconsistencies and adherence to the coding manual.</p></details><details><summary><b>6</b> Publish</summary><p>Once the data is approved and quality checks are resolved, it is published in the PA-X database. Preparing a release brings together software engineering, database management and web development, using manual entry and automated processing.</p><p class="small">The published data supports further research, specialist coding, visualisations and other PeaceTech resources.</p></details></div>
+<a class="text-link" href="https://tvancisin.github.io/provenance/" rel="noopener noreferrer" target="_blank">Explore the provenance visualisation</a>
+</section><section class="chapter" id="concepts"><p class="eyebrow">03 / Understand PA-X terminology</p><h2>Understanding PA-X terminology</h2><div class="columns concept-cards"><article><h3>Agreement metadata</h3><p>Stage, type, status, process and location describe its context. Learn their meanings and the labels you will see in Search and CSV files.</p><figure class="metadata-preview"><div class="metadata-preview-header"><span aria-hidden="true" class="mini-document"></span><div><strong>Agreement 152</strong><small>Colombia / 25 January 1991</small></div></div><dl><div><dt><a href="terminology.html?term=Agt#metadata">Agreement name</a><code>Agt</code></dt><dd>Acuerdo Final entre el Gobierno Nacional y el Partido Revolucionario de los Trabajadores, don Gabriel, Ovejas, Sucre</dd></div><div><dt><a href="terminology.html?term=Con#metadata">Country/entity</a><code>Con</code></dt><dd>Colombia</dd></div><div><dt><a href="terminology.html?term=Stage#metadata">Agreement stage</a><code>Stage</code></dt><dd>Framework-substantive, comprehensive <code>SubComp</code></dd></div><div><dt><a href="terminology.html?term=PPName#metadata">Peace process</a><code>PPName</code></dt><dd>Colombia I - Gaviria</dd></div></dl><figcaption>Metadata places this agreement in context. Select a field to read its definition.</figcaption></figure><a class="button secondary" href="terminology.html#metadata">Explore agreement information →</a></article><article><h3>Agreement content and topic coding</h3><p>Topic coding helps identify what the text says. Read descriptions, what is included or excluded, and how a topic divides into more specific topics.</p><figure class="topic-preview"><p class="eyebrow">From a broad topic to a specific provision</p><ol class="topic-branch"><li class="topic-depth-0"><a href="terminology.html?term=Gov#topics"><small>Category</small><strong>Governance</strong><code>Gov</code></a></li><li class="topic-depth-1"><a href="terminology.html?term=PolPar#topics"><small>Issue</small><strong>Political parties reform</strong><code>PolPar</code></a></li><li class="topic-depth-2"><a href="terminology.html?term=PolParTrans#topics"><small>Sub-issue</small><strong>Rebels transitioning to political parties</strong><code>PolParTrans</code></a></li></ol><figcaption>Topic coding describes what the agreement addresses. Select a topic to explore its meaning.</figcaption></figure><a class="button secondary" href="terminology.html#topics">Search and browse topics →</a></article></div>
+<div class="stage-reading-note"><div><span class="tag">Stage in focus</span><h3>Peace processes are messy</h3><p>Processes go back and forth between stages. In the visualisation below, reveal the recorded trajectories and follow a peace process: talks, ceasefires, substantive agreements and implementation arrangements can recur as negotiations develop.</p><p><strong>An implementation agreement is not proof that an agreement was implemented.</strong> It may set out arrangements for carrying out earlier commitments.</p><a href="terminology.html?term=Imp#metadata">Read the implementation-stage description →</a></div></div>
+<h3>Agreement stages over time</h3><p>Start with the smooth blue line showing an idealised sequence. Select CLICK TO START inside the chart to reveal the recorded, back-and-forth trajectories. Then explore a process and its agreements; Reset returns to the idealised view.</p><div class="timeline-embed"><div id="timeline-host"><iframe allowfullscreen="" id="messy-timeline-frame" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://129.215.193.6/" title="Messy Peace Processes: from an idealised sequence to recorded trajectories"></iframe></div><p class="small no-print">The interactive chart needs a connection to the timeline server. If it does not appear, open the full explorer using the link below.</p><p><a href="https://129.215.193.6/" id="full-timeline-link" rel="noopener noreferrer" target="_blank">Open the full Messy Peace Processes explorer</a></p><p class="timeline-print-note">The interactive ideal-to-messy transition is available in the web guide. Open the explorer: <a href="https://129.215.193.6/" id="printed-timeline-link" rel="noopener noreferrer" target="_blank">https://129.215.193.6/</a></p></div><p class="source-line">Messy Peace Processes / Back and Forth in Peace Negotiations. Follow how agreement stages recur across a process. <a href="#s-tools">[6]</a></p></section><section class="chapter" id="questions"><p class="eyebrow">04 / Follow a research question</p><h2>Research questions and methods</h2><p class="section-lead">Use PA-X Search in the browser, or work with a CSV in a spreadsheet, R or Python. The question is shared; the instructions and field names differ.</p>
+<article class="journey"><div class="journey-intro"><span class="number">A</span><h3>Examining provisions on a specific issue</h3><p>Example: armed groups becoming political parties.</p><a class="button secondary" data-example="parties" href="#planner">Build this search →</a><a class="video-link no-print" href="https://youtu.be/SverTvXebBM" rel="noopener noreferrer" target="_blank">Watch the Colombia issue search (YouTube video) ↗</a></div><div><p><strong>Start with the meaning.</strong> Look up <a href="terminology.html?term=PolParTrans#topics">Rebels transitioning to political parties</a> before choosing a filter.</p><div class="route-instructions"><h4>On PA-X Search</h4><ol><li>Choose the country/entity you want.</li><li>Under agreement content, choose Governance, then Political parties reform and the transition sub-issue.</li><li>Open a result and read its coded passages alongside the agreement document.</li><li>Use <strong>Export agreement coding (PDF)</strong> to keep an evidence note; download the selected data if you want to analyse it further.</li></ol><h4>In the main CSV</h4><p>Select the relevant <code>Con</code> designation and <code>PolParTrans = 1</code>. Keep <code>AgtId</code> to reconnect your rows to the website.</p></div><div class="evidence-card"><p class="eyebrow">A real example · Agreement 152</p><h4>Colombia: Government and PRT agreement, 25 January 1991</h4><p>The record links political-party transition coding to provisions facilitating the PRT’s legal establishment as a political party. The local main CSV records <code>PolParTrans = 1</code>.</p><p>This record and its coded data provide evidence of what is written in the agreement. They do not record whether its commitments were implemented.</p><a href="https://www.peaceagreements.org/agreements/152/" rel="noopener noreferrer" target="_blank">Read the agreement and export its coding ↗</a></div><aside class="resource-next"><h4>Comparing topic coverage across agreements</h4><p><a href="https://www.peaceagreements.org/visualizations/data-overview-visualization/" rel="noopener noreferrer" target="_blank">Hierarchy and Continuity in Key Issues</a> arranges agreement topics in a matrix. Sort and compare their coverage by country, region, process, stage or agreement type, then return to the text to interpret the pattern.</p></aside></div></article>
+<article class="journey"><div class="journey-intro"><span class="number">B</span><h3>Tracing agreements through a peace process</h3><p>Follow a country or a particular peace process.</p><a class="button secondary" data-example="sudan" href="#planner">Build the Sudan timeline →</a><a class="video-link no-print" href="https://youtu.be/TF77wA0sGfM" rel="noopener noreferrer" target="_blank">Watch the Sudan timeline search (YouTube video) ↗</a></div><div><div class="route-instructions"><h4>On PA-X Search</h4><p>Choose Country/Entity or a Peace process. Open the timeline to see the agreements over time, with the results beneath it. Use the result-order controls to inspect the list, open individual agreements, or export data for further analysis.</p><h4>In the main CSV</h4><p>Select <code>PP</code> for one process and confirm its <code>PPName</code>. Parse and sort <code>Dat</code>; retain <code>AgtId</code>, <code>Stage</code> and <code>StageSub</code>. A country can contain multiple processes.</p></div><div class="callout"><h4>Interpreting an agreement chronology</h4><p>A timeline describes recorded agreement-making. Gaps do not show that negotiations stopped, and stage changes do not measure success or failure.</p></div><a href="https://www.peaceagreements.org/agreements/search/?search_type=basic-search&amp;show_timeline=1&amp;countries=130#timeline" rel="noopener noreferrer" target="_blank">Open the Sudan timeline and results ↗</a><div class="callout sudan-context"><h4>Institutional events surrounding agreements</h4><p>Explore elections, constitutional events, coups and amnesties alongside agreements in the <a href="https://www.peaceagreements.org/tracker/sudan/timeline/" rel="noopener noreferrer" target="_blank">Sudan Timeline of Formal Change Processes</a> on PA-X Tracker.</p><p>Use the event-type filter to focus the timeline, then open an event for its description and source links. This adds institutional context to the agreement chronology. Check each source's coverage; events occurring close together do not establish a causal relationship.</p><p>The <a href="https://www.peaceagreements.org/tracker/sudan/" rel="noopener noreferrer" target="_blank">Sudan Tracker profile</a> also links to a process overview, implementation data, an agreement-actor network and PeaceRep research.</p></div></div></article>
+<article class="journey annual-journey"><div class="journey-intro"><span class="number">C</span><h3>Tracking provision coverage over time</h3><p>What share of non-local agreements each year contains substantive provisions on refugees or displaced persons?</p><a class="button secondary" data-example="refugees" href="#planner">Build this selection</a><a class="video-link no-print" href="https://youtu.be/B_csJT758Bg" rel="noopener noreferrer" target="_blank">Watch the two PA-X searches (YouTube video) ↗</a></div><div><div class="annual-routes"><div class="route-instructions"><h4>On PA-X Search</h4><p>Select all agreement/conflict levels except <strong>Intrastate/local conflict</strong> and export the results. Then add <strong>Refugees/displaced persons: Substantive</strong> and export this selection too. Group each export by agreement year in a spreadsheet or analysis tool. For each year, divide the number with substantive provisions by the total number of non-local agreements. The CSV workflow below shows how to calculate this from the main dataset.</p></div><div class="route-instructions"><h4>In the main CSV</h4><ol><li>Extract the year from <code>Dat</code> and keep one row per <code>AgtId</code>.</li><li>Exclude <code>Agtp = IntraLocal</code>. Group the remaining agreements by year.</li><li>For each year, count all remaining agreements and those with <code>GRefSubs = 1</code>. Divide the second count by the first and multiply by 100.</li></ol><p class="small">In a spreadsheet, add a year column and a 1/0 column for <code>GRefSubs = 1</code>. After excluding local rows, a pivot table with year as rows and the average of that 1/0 column, formatted as a percentage, gives the annual share. Include a count of AgtId alongside it.</p></div></div><figure class="annual-chart"><div aria-label="Annual agreement counts and provision percentages chart" class="annual-chart-scroll" role="region" tabindex="0"><svg aria-label="Annual refugee and displacement provisions. Hover, focus or tap a year for its values." class="annual-interactive-svg" height="446.4pt" role="group" version="1.1" viewbox="0 0 864 446.4" width="864pt" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+<metadata>
+<rdf:rdf>
+<ns2:work>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+<dc:date>2026-09-29T21:40:31.917666</dc:date>
+<dc:format>image/svg+xml</dc:format>
+<dc:creator>
+<ns2:agent>
+<dc:title>Matplotlib v3.10.6, https://matplotlib.org/</dc:title>
+</ns2:agent>
+</dc:creator>
+</ns2:work>
+</rdf:rdf>
+</metadata>
+<defs>
+<style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+</defs>
+<g id="figure_1">
+<g id="patch_1">
+<path d="M 0 446.4  L 864 446.4  L 864 0  L 0 0  z " style="fill: #ffffff"></path>
+</g>
+<g id="axes_1">
+<g id="patch_2">
+<path d="M 56.16 266.318182  L 846.72 266.318182  L 846.72 111.6  L 56.16 111.6  z " style="fill: #ffffff"></path>
+</g>
+<g id="matplotlib.axis_1">
+<g id="xtick_1">
+<g id="line2d_1"></g>
+</g>
+<g id="xtick_2">
+<g id="line2d_2"></g>
+</g>
+<g id="xtick_3">
+<g id="line2d_3"></g>
+</g>
+<g id="xtick_4">
+<g id="line2d_4"></g>
+</g>
+<g id="xtick_5">
+<g id="line2d_5"></g>
+</g>
+<g id="xtick_6">
+<g id="line2d_6"></g>
+</g>
+<g id="xtick_7">
+<g id="line2d_7"></g>
+</g>
+<g id="xtick_8">
+<g id="line2d_8"></g>
+</g>
+</g>
+<g id="matplotlib.axis_2">
+<g id="ytick_1">
+<g id="line2d_9">
+<path clip-path="url(#p8dbe3b7e23)" d="M 56.16 266.318182  L 846.72 266.318182  " style="fill: none; stroke: #e8edf2; stroke-width: 0.7; stroke-linecap: square"></path>
+</g>
+<g id="line2d_10"></g>
+<g id="text_1">
+<text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: end; fill: #52647b" transform="rotate(-0 50.16 270.019744)" x="50.16" y="270.019744">0</text>
+</g>
+</g>
+<g id="ytick_2">
+<g id="line2d_11">
+<path clip-path="url(#p8dbe3b7e23)" d="M 56.16 234.62987  L 846.72 234.62987  " style="fill: none; stroke: #e8edf2; stroke-width: 0.7; stroke-linecap: square"></path>
+</g>
+<g id="line2d_12"></g>
+<g id="text_2">
+<text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: end; fill: #52647b" transform="rotate(-0 50.16 238.331433)" x="50.16" y="238.331433">20</text>
+</g>
+</g>
+<g id="ytick_3">
+<g id="line2d_13">
+<path clip-path="url(#p8dbe3b7e23)" d="M 56.16 202.941558  L 846.72 202.941558  " style="fill: none; stroke: #e8edf2; stroke-width: 0.7; stroke-linecap: square"></path>
+</g>
+<g id="line2d_14"></g>
+<g id="text_3">
+<text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: end; fill: #52647b" transform="rotate(-0 50.16 206.643121)" x="50.16" y="206.643121">40</text>
+</g>
+</g>
+<g id="ytick_4">
+<g id="line2d_15">
+<path clip-path="url(#p8dbe3b7e23)" d="M 56.16 171.253247  L 846.72 171.253247  " style="fill: none; stroke: #e8edf2; stroke-width: 0.7; stroke-linecap: square"></path>
+</g>
+<g id="line2d_16"></g>
+<g id="text_4">
+<text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: end; fill: #52647b" transform="rotate(-0 50.16 174.954809)" x="50.16" y="174.954809">60</text>
+</g>
+</g>
+<g id="ytick_5">
+<g id="line2d_17">
+<path clip-path="url(#p8dbe3b7e23)" d="M 56.16 139.564935  L 846.72 139.564935  " style="fill: none; stroke: #e8edf2; stroke-width: 0.7; stroke-linecap: square"></path>
+</g>
+<g id="line2d_18"></g>
+<g id="text_5">
+<text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: end; fill: #52647b" transform="rotate(-0 50.16 143.266498)" x="50.16" y="143.266498">80</text>
+</g>
+</g>
+<g id="text_6">
+<text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #091f40" transform="rotate(-90 33.025625 188.959091)" x="33.025625" y="188.959091">Agreements</text>
+</g>
+</g>
+<g id="patch_3">
+<path clip-path="url(#p8dbe3b7e23)" d="M 62.892791 266.318182  L 79.833363 266.318182  L 79.833363 261.564935  L 62.892791 261.564935  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_4">
+<path clip-path="url(#p8dbe3b7e23)" d="M 84.611473 266.318182  L 101.552044 266.318182  L 101.552044 248.88961  L 84.611473 248.88961  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_5">
+<path clip-path="url(#p8dbe3b7e23)" d="M 106.330154 266.318182  L 123.270725 266.318182  L 123.270725 239.383117  L 106.330154 239.383117  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_6">
+<path clip-path="url(#p8dbe3b7e23)" d="M 128.048835 266.318182  L 144.989407 266.318182  L 144.989407 237.798701  L 128.048835 237.798701  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_7">
+<path clip-path="url(#p8dbe3b7e23)" d="M 149.767516 266.318182  L 166.708088 266.318182  L 166.708088 240.967532  L 149.767516 240.967532  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_8">
+<path clip-path="url(#p8dbe3b7e23)" d="M 171.486198 266.318182  L 188.426769 266.318182  L 188.426769 248.88961  L 171.486198 248.88961  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_9">
+<path clip-path="url(#p8dbe3b7e23)" d="M 193.204879 266.318182  L 210.145451 266.318182  L 210.145451 247.305195  L 193.204879 247.305195  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_10">
+<path clip-path="url(#p8dbe3b7e23)" d="M 214.92356 266.318182  L 231.864132 266.318182  L 231.864132 242.551948  L 214.92356 242.551948  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_11">
+<path clip-path="url(#p8dbe3b7e23)" d="M 236.642242 266.318182  L 253.582813 266.318182  L 253.582813 252.058442  L 236.642242 252.058442  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_12">
+<path clip-path="url(#p8dbe3b7e23)" d="M 258.360923 266.318182  L 275.301495 266.318182  L 275.301495 255.227273  L 258.360923 255.227273  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_13">
+<path clip-path="url(#p8dbe3b7e23)" d="M 280.079604 266.318182  L 297.020176 266.318182  L 297.020176 252.058442  L 280.079604 252.058442  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_14">
+<path clip-path="url(#p8dbe3b7e23)" d="M 301.798286 266.318182  L 318.738857 266.318182  L 318.738857 255.227273  L 301.798286 255.227273  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_15">
+<path clip-path="url(#p8dbe3b7e23)" d="M 323.516967 266.318182  L 340.457538 266.318182  L 340.457538 255.227273  L 323.516967 255.227273  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_16">
+<path clip-path="url(#p8dbe3b7e23)" d="M 345.235648 266.318182  L 362.17622 266.318182  L 362.17622 248.88961  L 345.235648 248.88961  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_17">
+<path clip-path="url(#p8dbe3b7e23)" d="M 366.95433 266.318182  L 383.894901 266.318182  L 383.894901 247.305195  L 366.95433 247.305195  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_18">
+<path clip-path="url(#p8dbe3b7e23)" d="M 388.673011 266.318182  L 405.613582 266.318182  L 405.613582 256.811688  L 388.673011 256.811688  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_19">
+<path clip-path="url(#p8dbe3b7e23)" d="M 410.391692 266.318182  L 427.332264 266.318182  L 427.332264 247.305195  L 410.391692 247.305195  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_20">
+<path clip-path="url(#p8dbe3b7e23)" d="M 432.110374 266.318182  L 449.050945 266.318182  L 449.050945 255.227273  L 432.110374 255.227273  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_21">
+<path clip-path="url(#p8dbe3b7e23)" d="M 453.829055 266.318182  L 470.769626 266.318182  L 470.769626 247.305195  L 453.829055 247.305195  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_22">
+<path clip-path="url(#p8dbe3b7e23)" d="M 475.547736 266.318182  L 492.488308 266.318182  L 492.488308 261.564935  L 475.547736 261.564935  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_23">
+<path clip-path="url(#p8dbe3b7e23)" d="M 497.266418 266.318182  L 514.206989 266.318182  L 514.206989 258.396104  L 497.266418 258.396104  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_24">
+<path clip-path="url(#p8dbe3b7e23)" d="M 518.985099 266.318182  L 535.92567 266.318182  L 535.92567 255.227273  L 518.985099 255.227273  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_25">
+<path clip-path="url(#p8dbe3b7e23)" d="M 540.70378 266.318182  L 557.644352 266.318182  L 557.644352 258.396104  L 540.70378 258.396104  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_26">
+<path clip-path="url(#p8dbe3b7e23)" d="M 562.422462 266.318182  L 579.363033 266.318182  L 579.363033 248.88961  L 562.422462 248.88961  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_27">
+<path clip-path="url(#p8dbe3b7e23)" d="M 584.141143 266.318182  L 601.081714 266.318182  L 601.081714 255.227273  L 584.141143 255.227273  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_28">
+<path clip-path="url(#p8dbe3b7e23)" d="M 605.859824 266.318182  L 622.800396 266.318182  L 622.800396 253.642857  L 605.859824 253.642857  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_29">
+<path clip-path="url(#p8dbe3b7e23)" d="M 627.578505 266.318182  L 644.519077 266.318182  L 644.519077 259.980519  L 627.578505 259.980519  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_30">
+<path clip-path="url(#p8dbe3b7e23)" d="M 649.297187 266.318182  L 666.237758 266.318182  L 666.237758 258.396104  L 649.297187 258.396104  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_31">
+<path clip-path="url(#p8dbe3b7e23)" d="M 671.015868 266.318182  L 687.95644 266.318182  L 687.95644 259.980519  L 671.015868 259.980519  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_32">
+<path clip-path="url(#p8dbe3b7e23)" d="M 692.734549 266.318182  L 709.675121 266.318182  L 709.675121 258.396104  L 692.734549 258.396104  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_33">
+<path clip-path="url(#p8dbe3b7e23)" d="M 714.453231 266.318182  L 731.393802 266.318182  L 731.393802 253.642857  L 714.453231 253.642857  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_34">
+<path clip-path="url(#p8dbe3b7e23)" d="M 736.171912 266.318182  L 753.112484 266.318182  L 753.112484 266.318182  L 736.171912 266.318182  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_35">
+<path clip-path="url(#p8dbe3b7e23)" d="M 757.890593 266.318182  L 774.831165 266.318182  L 774.831165 261.564935  L 757.890593 261.564935  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_36">
+<path clip-path="url(#p8dbe3b7e23)" d="M 779.609275 266.318182  L 796.549846 266.318182  L 796.549846 263.149351  L 779.609275 263.149351  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_37">
+<path clip-path="url(#p8dbe3b7e23)" d="M 801.327956 266.318182  L 818.268527 266.318182  L 818.268527 256.811688  L 801.327956 256.811688  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_38">
+<path clip-path="url(#p8dbe3b7e23)" d="M 823.046637 266.318182  L 839.987209 266.318182  L 839.987209 252.058442  L 823.046637 252.058442  z " style="fill: #c43e48"></path>
+</g>
+<g id="patch_39">
+<path clip-path="url(#p8dbe3b7e23)" d="M 62.892791 261.564935  L 79.833363 261.564935  L 79.833363 196.603896  L 62.892791 196.603896  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_40">
+<path clip-path="url(#p8dbe3b7e23)" d="M 84.611473 248.88961  L 101.552044 248.88961  L 101.552044 136.396104  L 84.611473 136.396104  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_41">
+<path clip-path="url(#p8dbe3b7e23)" d="M 106.330154 239.383117  L 123.270725 239.383117  L 123.270725 141.149351  L 106.330154 141.149351  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_42">
+<path clip-path="url(#p8dbe3b7e23)" d="M 128.048835 237.798701  L 144.989407 237.798701  L 144.989407 126.88961  L 128.048835 126.88961  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_43">
+<path clip-path="url(#p8dbe3b7e23)" d="M 149.767516 240.967532  L 166.708088 240.967532  L 166.708088 120.551948  L 149.767516 120.551948  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_44">
+<path clip-path="url(#p8dbe3b7e23)" d="M 171.486198 248.88961  L 188.426769 248.88961  L 188.426769 164.915584  L 171.486198 164.915584  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_45">
+<path clip-path="url(#p8dbe3b7e23)" d="M 193.204879 247.305195  L 210.145451 247.305195  L 210.145451 161.746753  L 193.204879 161.746753  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_46">
+<path clip-path="url(#p8dbe3b7e23)" d="M 214.92356 242.551948  L 231.864132 242.551948  L 231.864132 155.409091  L 214.92356 155.409091  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_47">
+<path clip-path="url(#p8dbe3b7e23)" d="M 236.642242 252.058442  L 253.582813 252.058442  L 253.582813 161.746753  L 236.642242 161.746753  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_48">
+<path clip-path="url(#p8dbe3b7e23)" d="M 258.360923 255.227273  L 275.301495 255.227273  L 275.301495 136.396104  L 258.360923 136.396104  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_49">
+<path clip-path="url(#p8dbe3b7e23)" d="M 280.079604 252.058442  L 297.020176 252.058442  L 297.020176 171.253247  L 280.079604 171.253247  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_50">
+<path clip-path="url(#p8dbe3b7e23)" d="M 301.798286 255.227273  L 318.738857 255.227273  L 318.738857 171.253247  L 301.798286 171.253247  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_51">
+<path clip-path="url(#p8dbe3b7e23)" d="M 323.516967 255.227273  L 340.457538 255.227273  L 340.457538 180.75974  L 323.516967 180.75974  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_52">
+<path clip-path="url(#p8dbe3b7e23)" d="M 345.235648 248.88961  L 362.17622 248.88961  L 362.17622 185.512987  L 345.235648 185.512987  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_53">
+<path clip-path="url(#p8dbe3b7e23)" d="M 366.95433 247.305195  L 383.894901 247.305195  L 383.894901 193.435065  L 366.95433 193.435065  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_54">
+<path clip-path="url(#p8dbe3b7e23)" d="M 388.673011 256.811688  L 405.613582 256.811688  L 405.613582 220.37013  L 388.673011 220.37013  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_55">
+<path clip-path="url(#p8dbe3b7e23)" d="M 410.391692 247.305195  L 427.332264 247.305195  L 427.332264 169.668831  L 410.391692 169.668831  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_56">
+<path clip-path="url(#p8dbe3b7e23)" d="M 432.110374 255.227273  L 449.050945 255.227273  L 449.050945 214.032468  L 432.110374 214.032468  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_57">
+<path clip-path="url(#p8dbe3b7e23)" d="M 453.829055 247.305195  L 470.769626 247.305195  L 470.769626 177.590909  L 453.829055 177.590909  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_58">
+<path clip-path="url(#p8dbe3b7e23)" d="M 475.547736 261.564935  L 492.488308 261.564935  L 492.488308 215.616883  L 475.547736 215.616883  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_59">
+<path clip-path="url(#p8dbe3b7e23)" d="M 497.266418 258.396104  L 514.206989 258.396104  L 514.206989 220.37013  L 497.266418 220.37013  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_60">
+<path clip-path="url(#p8dbe3b7e23)" d="M 518.985099 255.227273  L 535.92567 255.227273  L 535.92567 190.266234  L 518.985099 190.266234  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_61">
+<path clip-path="url(#p8dbe3b7e23)" d="M 540.70378 258.396104  L 557.644352 258.396104  L 557.644352 176.006494  L 540.70378 176.006494  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_62">
+<path clip-path="url(#p8dbe3b7e23)" d="M 562.422462 248.88961  L 579.363033 248.88961  L 579.363033 210.863636  L 562.422462 210.863636  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_63">
+<path clip-path="url(#p8dbe3b7e23)" d="M 584.141143 255.227273  L 601.081714 255.227273  L 601.081714 183.928571  L 584.141143 183.928571  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_64">
+<path clip-path="url(#p8dbe3b7e23)" d="M 605.859824 253.642857  L 622.800396 253.642857  L 622.800396 193.435065  L 605.859824 193.435065  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_65">
+<path clip-path="url(#p8dbe3b7e23)" d="M 627.578505 259.980519  L 644.519077 259.980519  L 644.519077 201.357143  L 627.578505 201.357143  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_66">
+<path clip-path="url(#p8dbe3b7e23)" d="M 649.297187 258.396104  L 666.237758 258.396104  L 666.237758 217.201299  L 649.297187 217.201299  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_67">
+<path clip-path="url(#p8dbe3b7e23)" d="M 671.015868 259.980519  L 687.95644 259.980519  L 687.95644 217.201299  L 671.015868 217.201299  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_68">
+<path clip-path="url(#p8dbe3b7e23)" d="M 692.734549 258.396104  L 709.675121 258.396104  L 709.675121 233.045455  L 692.734549 233.045455  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_69">
+<path clip-path="url(#p8dbe3b7e23)" d="M 714.453231 253.642857  L 731.393802 253.642857  L 731.393802 214.032468  L 714.453231 214.032468  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_70">
+<path clip-path="url(#p8dbe3b7e23)" d="M 736.171912 266.318182  L 753.112484 266.318182  L 753.112484 221.954545  L 736.171912 221.954545  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_71">
+<path clip-path="url(#p8dbe3b7e23)" d="M 757.890593 261.564935  L 774.831165 261.564935  L 774.831165 217.201299  L 757.890593 217.201299  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_72">
+<path clip-path="url(#p8dbe3b7e23)" d="M 779.609275 263.149351  L 796.549846 263.149351  L 796.549846 166.5  L 779.609275 166.5  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_73">
+<path clip-path="url(#p8dbe3b7e23)" d="M 801.327956 256.811688  L 818.268527 256.811688  L 818.268527 191.850649  L 801.327956 191.850649  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_74">
+<path clip-path="url(#p8dbe3b7e23)" d="M 823.046637 252.058442  L 839.987209 252.058442  L 839.987209 182.344156  L 823.046637 182.344156  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="patch_75">
+<path clip-path="url(#p8dbe3b7e23)" d="M 62.892791 196.603896  L 79.833363 196.603896  L 79.833363 196.603896  L 62.892791 196.603896  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_76">
+<path clip-path="url(#p8dbe3b7e23)" d="M 84.611473 136.396104  L 101.552044 136.396104  L 101.552044 133.227273  L 84.611473 133.227273  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_77">
+<path clip-path="url(#p8dbe3b7e23)" d="M 106.330154 141.149351  L 123.270725 141.149351  L 123.270725 134.811688  L 106.330154 134.811688  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_78">
+<path clip-path="url(#p8dbe3b7e23)" d="M 128.048835 126.88961  L 144.989407 126.88961  L 144.989407 118.967532  L 128.048835 118.967532  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_79">
+<path clip-path="url(#p8dbe3b7e23)" d="M 149.767516 120.551948  L 166.708088 120.551948  L 166.708088 118.967532  L 149.767516 118.967532  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_80">
+<path clip-path="url(#p8dbe3b7e23)" d="M 171.486198 164.915584  L 188.426769 164.915584  L 188.426769 163.331169  L 171.486198 163.331169  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_81">
+<path clip-path="url(#p8dbe3b7e23)" d="M 193.204879 161.746753  L 210.145451 161.746753  L 210.145451 160.162338  L 193.204879 160.162338  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_82">
+<path clip-path="url(#p8dbe3b7e23)" d="M 214.92356 155.409091  L 231.864132 155.409091  L 231.864132 152.24026  L 214.92356 152.24026  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_83">
+<path clip-path="url(#p8dbe3b7e23)" d="M 236.642242 161.746753  L 253.582813 161.746753  L 253.582813 160.162338  L 236.642242 160.162338  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_84">
+<path clip-path="url(#p8dbe3b7e23)" d="M 258.360923 136.396104  L 275.301495 136.396104  L 275.301495 130.058442  L 258.360923 130.058442  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_85">
+<path clip-path="url(#p8dbe3b7e23)" d="M 280.079604 171.253247  L 297.020176 171.253247  L 297.020176 168.084416  L 280.079604 168.084416  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_86">
+<path clip-path="url(#p8dbe3b7e23)" d="M 301.798286 171.253247  L 318.738857 171.253247  L 318.738857 169.668831  L 301.798286 169.668831  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_87">
+<path clip-path="url(#p8dbe3b7e23)" d="M 323.516967 180.75974  L 340.457538 180.75974  L 340.457538 172.837662  L 323.516967 172.837662  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_88">
+<path clip-path="url(#p8dbe3b7e23)" d="M 345.235648 185.512987  L 362.17622 185.512987  L 362.17622 182.344156  L 345.235648 182.344156  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_89">
+<path clip-path="url(#p8dbe3b7e23)" d="M 366.95433 193.435065  L 383.894901 193.435065  L 383.894901 190.266234  L 366.95433 190.266234  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_90">
+<path clip-path="url(#p8dbe3b7e23)" d="M 388.673011 220.37013  L 405.613582 220.37013  L 405.613582 217.201299  L 388.673011 217.201299  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_91">
+<path clip-path="url(#p8dbe3b7e23)" d="M 410.391692 169.668831  L 427.332264 169.668831  L 427.332264 164.915584  L 410.391692 164.915584  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_92">
+<path clip-path="url(#p8dbe3b7e23)" d="M 432.110374 214.032468  L 449.050945 214.032468  L 449.050945 198.188312  L 432.110374 198.188312  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_93">
+<path clip-path="url(#p8dbe3b7e23)" d="M 453.829055 177.590909  L 470.769626 177.590909  L 470.769626 161.746753  L 453.829055 161.746753  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_94">
+<path clip-path="url(#p8dbe3b7e23)" d="M 475.547736 215.616883  L 492.488308 215.616883  L 492.488308 191.850649  L 475.547736 191.850649  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_95">
+<path clip-path="url(#p8dbe3b7e23)" d="M 497.266418 220.37013  L 514.206989 220.37013  L 514.206989 215.616883  L 497.266418 215.616883  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_96">
+<path clip-path="url(#p8dbe3b7e23)" d="M 518.985099 190.266234  L 535.92567 190.266234  L 535.92567 182.344156  L 518.985099 182.344156  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_97">
+<path clip-path="url(#p8dbe3b7e23)" d="M 540.70378 176.006494  L 557.644352 176.006494  L 557.644352 166.5  L 540.70378 166.5  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_98">
+<path clip-path="url(#p8dbe3b7e23)" d="M 562.422462 210.863636  L 579.363033 210.863636  L 579.363033 198.188312  L 562.422462 198.188312  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_99">
+<path clip-path="url(#p8dbe3b7e23)" d="M 584.141143 183.928571  L 601.081714 183.928571  L 601.081714 133.227273  L 584.141143 133.227273  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_100">
+<path clip-path="url(#p8dbe3b7e23)" d="M 605.859824 193.435065  L 622.800396 193.435065  L 622.800396 155.409091  L 605.859824 155.409091  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_101">
+<path clip-path="url(#p8dbe3b7e23)" d="M 627.578505 201.357143  L 644.519077 201.357143  L 644.519077 141.149351  L 627.578505 141.149351  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_102">
+<path clip-path="url(#p8dbe3b7e23)" d="M 649.297187 217.201299  L 666.237758 217.201299  L 666.237758 142.733766  L 649.297187 142.733766  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_103">
+<path clip-path="url(#p8dbe3b7e23)" d="M 671.015868 217.201299  L 687.95644 217.201299  L 687.95644 126.88961  L 671.015868 126.88961  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_104">
+<path clip-path="url(#p8dbe3b7e23)" d="M 692.734549 233.045455  L 709.675121 233.045455  L 709.675121 174.422078  L 692.734549 174.422078  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_105">
+<path clip-path="url(#p8dbe3b7e23)" d="M 714.453231 214.032468  L 731.393802 214.032468  L 731.393802 195.019481  L 714.453231 195.019481  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_106">
+<path clip-path="url(#p8dbe3b7e23)" d="M 736.171912 221.954545  L 753.112484 221.954545  L 753.112484 207.694805  L 736.171912 207.694805  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_107">
+<path clip-path="url(#p8dbe3b7e23)" d="M 757.890593 217.201299  L 774.831165 217.201299  L 774.831165 207.694805  L 757.890593 207.694805  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_108">
+<path clip-path="url(#p8dbe3b7e23)" d="M 779.609275 166.5  L 796.549846 166.5  L 796.549846 142.733766  L 779.609275 142.733766  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_109">
+<path clip-path="url(#p8dbe3b7e23)" d="M 801.327956 191.850649  L 818.268527 191.850649  L 818.268527 168.084416  L 801.327956 168.084416  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_110">
+<path clip-path="url(#p8dbe3b7e23)" d="M 823.046637 182.344156  L 839.987209 182.344156  L 839.987209 168.084416  L 823.046637 168.084416  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="patch_111">
+<path d="M 56.16 266.318182  L 846.72 266.318182  " style="fill: none; stroke: #d5deea; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"></path>
+</g>
+<g id="text_7">
+<text style="font-weight: 700; font-size: 11px; font-family: 'Segoe UI'; text-anchor: start; fill: #091f40" transform="rotate(-0 56.16 105.6)" x="56.16" y="105.6">Agreement counts by year</text>
+</g>
+</g>
+<g id="axes_2">
+<g id="patch_112">
+<path d="M 56.16 383.904  L 846.72 383.904  L 846.72 313.577554  L 56.16 313.577554  z " style="fill: #ffffff"></path>
+</g>
+<g id="matplotlib.axis_3">
+<g id="xtick_9">
+<g id="line2d_19"></g>
+<g id="text_8">
+<text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #52647b" transform="rotate(-0 71.363077 397.307125)" x="71.363077" y="397.307125">1990</text>
+</g>
+</g>
+<g id="xtick_10">
+<g id="line2d_20"></g>
+<g id="text_9">
+<text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #52647b" transform="rotate(-0 179.956484 397.307125)" x="179.956484" y="397.307125">1995</text>
+</g>
+</g>
+<g id="xtick_11">
+<g id="line2d_21"></g>
+<g id="text_10">
+<text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #52647b" transform="rotate(-0 288.54989 397.307125)" x="288.54989" y="397.307125">2000</text>
+</g>
+</g>
+<g id="xtick_12">
+<g id="line2d_22"></g>
+<g id="text_11">
+<text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #52647b" transform="rotate(-0 397.143297 397.307125)" x="397.143297" y="397.307125">2005</text>
+</g>
+</g>
+<g id="xtick_13">
+<g id="line2d_23"></g>
+<g id="text_12">
+<text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #52647b" transform="rotate(-0 505.736703 397.307125)" x="505.736703" y="397.307125">2010</text>
+</g>
+</g>
+<g id="xtick_14">
+<g id="line2d_24"></g>
+<g id="text_13">
+<text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #52647b" transform="rotate(-0 614.33011 397.307125)" x="614.33011" y="397.307125">2015</text>
+</g>
+</g>
+<g id="xtick_15">
+<g id="line2d_25"></g>
+<g id="text_14">
+<text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #52647b" transform="rotate(-0 722.923516 397.307125)" x="722.923516" y="397.307125">2020</text>
+</g>
+</g>
+<g id="xtick_16">
+<g id="line2d_26"></g>
+<g id="text_15">
+<text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #52647b" transform="rotate(-0 831.516923 397.307125)" x="831.516923" y="397.307125">2025</text>
+</g>
+</g>
+</g>
+<g id="matplotlib.axis_4">
+<g id="ytick_6">
+<g id="line2d_27">
+<path clip-path="url(#p8f8db4d70a)" d="M 56.16 383.904  L 846.72 383.904  " style="fill: none; stroke: #e8edf2; stroke-width: 0.7; stroke-linecap: square"></path>
+</g>
+<g id="line2d_28"></g>
+<g id="text_16">
+<text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: end; fill: #52647b" transform="rotate(-0 50.16 387.605563)" x="50.16" y="387.605563">0%</text>
+</g>
+</g>
+<g id="ytick_7">
+<g id="line2d_29">
+<path clip-path="url(#p8f8db4d70a)" d="M 56.16 348.740777  L 846.72 348.740777  " style="fill: none; stroke: #e8edf2; stroke-width: 0.7; stroke-linecap: square"></path>
+</g>
+<g id="line2d_30"></g>
+<g id="text_17">
+<text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: end; fill: #52647b" transform="rotate(-0 50.16 352.442339)" x="50.16" y="352.442339">50%</text>
+</g>
+</g>
+<g id="ytick_8">
+<g id="line2d_31">
+<path clip-path="url(#p8f8db4d70a)" d="M 56.16 313.577554  L 846.72 313.577554  " style="fill: none; stroke: #e8edf2; stroke-width: 0.7; stroke-linecap: square"></path>
+</g>
+<g id="line2d_32"></g>
+<g id="text_18">
+<text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: end; fill: #52647b" transform="rotate(-0 50.16 317.279116)" x="50.16" y="317.279116">100%</text>
+</g>
+</g>
+<g id="text_19">
+<text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #091f40" transform="rotate(-90 19.50375 348.740777)" x="19.50375" y="348.740777">Share</text>
+</g>
+</g>
+<g id="line2d_33">
+<path clip-path="url(#p8f8db4d70a)" d="M 71.363077 379.109002  L 93.081758 374.469989  L 114.80044 368.770452  L 136.519121 369.519077  L 158.237802 371.673317  L 179.956484 371.816642  L 201.675165 371.117386  L 223.393846 368.834027  L 245.112527 374.314004  L 266.831209 377.900513  L 288.54989 373.355033  L 310.268571 375.699224  L 331.987253 374.787583  L 353.705934 368.73557  L 375.424615 365.55794  L 397.143297 369.353669  L 418.861978 370.069311  L 440.580659 368.986284  L 462.299341 368.834027  L 484.018022 377.310896  L 505.736703 371.778736  L 527.455385 373.648083  L 549.174066 377.735034  L 570.892747 361.801383  L 592.611429 374.437005  L 614.33011 371.673317  L 636.048791 377.042882  L 657.767473 372.561047  L 679.486154 374.829638  L 701.204835 367.159625  L 722.923516 366.855182  L 744.642198 383.904  L 766.360879 377.098228  L 788.07956 381.671417  L 809.798242 374.926126  L 831.516923 371.961796  " style="fill: none; stroke: #c43e48; stroke-width: 1.8; stroke-linecap: square"></path>
+<defs>
+<path d="M 0 1.5  C 0.397805 1.5 0.77937 1.341951 1.06066 1.06066  C 1.341951 0.77937 1.5 0.397805 1.5 0  C 1.5 -0.397805 1.341951 -0.77937 1.06066 -1.06066  C 0.77937 -1.341951 0.397805 -1.5 0 -1.5  C -0.397805 -1.5 -0.77937 -1.341951 -1.06066 -1.06066  C -1.341951 -0.77937 -1.5 -0.397805 -1.5 0  C -1.5 0.397805 -1.341951 0.77937 -1.06066 1.06066  C -0.77937 1.341951 -0.397805 1.5 0 1.5  z " id="m9f5cd91284" style="stroke: #c43e48"></path>
+</defs>
+<g clip-path="url(#p8f8db4d70a)">
+<use style="fill: #c43e48; stroke: #c43e48" x="71.363077" xlink:href="#m9f5cd91284" y="379.109002"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="93.081758" xlink:href="#m9f5cd91284" y="374.469989"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="114.80044" xlink:href="#m9f5cd91284" y="368.770452"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="136.519121" xlink:href="#m9f5cd91284" y="369.519077"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="158.237802" xlink:href="#m9f5cd91284" y="371.673317"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="179.956484" xlink:href="#m9f5cd91284" y="371.816642"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="201.675165" xlink:href="#m9f5cd91284" y="371.117386"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="223.393846" xlink:href="#m9f5cd91284" y="368.834027"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="245.112527" xlink:href="#m9f5cd91284" y="374.314004"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="266.831209" xlink:href="#m9f5cd91284" y="377.900513"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="288.54989" xlink:href="#m9f5cd91284" y="373.355033"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="310.268571" xlink:href="#m9f5cd91284" y="375.699224"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="331.987253" xlink:href="#m9f5cd91284" y="374.787583"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="353.705934" xlink:href="#m9f5cd91284" y="368.73557"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="375.424615" xlink:href="#m9f5cd91284" y="365.55794"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="397.143297" xlink:href="#m9f5cd91284" y="369.353669"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="418.861978" xlink:href="#m9f5cd91284" y="370.069311"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="440.580659" xlink:href="#m9f5cd91284" y="368.986284"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="462.299341" xlink:href="#m9f5cd91284" y="368.834027"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="484.018022" xlink:href="#m9f5cd91284" y="377.310896"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="505.736703" xlink:href="#m9f5cd91284" y="371.778736"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="527.455385" xlink:href="#m9f5cd91284" y="373.648083"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="549.174066" xlink:href="#m9f5cd91284" y="377.735034"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="570.892747" xlink:href="#m9f5cd91284" y="361.801383"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="592.611429" xlink:href="#m9f5cd91284" y="374.437005"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="614.33011" xlink:href="#m9f5cd91284" y="371.673317"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="636.048791" xlink:href="#m9f5cd91284" y="377.042882"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="657.767473" xlink:href="#m9f5cd91284" y="372.561047"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="679.486154" xlink:href="#m9f5cd91284" y="374.829638"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="701.204835" xlink:href="#m9f5cd91284" y="367.159625"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="722.923516" xlink:href="#m9f5cd91284" y="366.855182"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="744.642198" xlink:href="#m9f5cd91284" y="383.904"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="766.360879" xlink:href="#m9f5cd91284" y="377.098228"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="788.07956" xlink:href="#m9f5cd91284" y="381.671417"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="809.798242" xlink:href="#m9f5cd91284" y="374.926126"></use>
+<use style="fill: #c43e48; stroke: #c43e48" x="831.516923" xlink:href="#m9f5cd91284" y="371.961796"></use>
+</g>
+</g>
+<g id="patch_113">
+<path d="M 56.16 383.904  L 846.72 383.904  " style="fill: none; stroke: #d5deea; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"></path>
+</g>
+<g id="text_20">
+<text style="font-weight: 700; font-size: 11px; font-family: 'Segoe UI'; text-anchor: start; fill: #091f40" transform="rotate(-0 56.16 307.577554)" x="56.16" y="307.577554">Share of non-local agreements with these provisions</text>
+</g>
+</g>
+<g id="text_21">
+<text style="font-weight: 700; font-size: 16px; font-family: 'Segoe UI'; text-anchor: start; fill: #091f40" transform="rotate(-0 56.16 20.9605)" x="56.16" y="20.9605">Substantive refugee and displacement provisions, 1990-2025</text>
+</g>
+<g id="text_22">
+<text style="font-size: 8px; font-family: 'Segoe UI'; text-anchor: start; fill: #52647b" transform="rotate(-0 56.16 425.8656)" x="56.16" y="425.8656">PA-X v10 (2026). Year from Dat; provision: GRefSubs = 1; local: Agtp = IntraLocal. Each AgtId counted once.</text>
+</g>
+<g id="text_23">
+<text style="font-size: 8px; font-family: 'Segoe UI'; text-anchor: start; fill: #52647b" transform="rotate(-0 56.16 437.9184)" x="56.16" y="437.9184">Percentage = red agreements / (red + grey agreements) in each year. Hatched local agreements are excluded.</text>
+</g>
+<g id="legend_1">
+<g id="patch_114">
+<path d="M 58.212 48.338437  L 76.212 48.338437  L 76.212 42.038438  L 58.212 42.038438  z " style="fill: #c43e48"></path>
+</g>
+<g id="text_24">
+<text style="font-size: 9px; font-family: 'Segoe UI'; text-anchor: start; fill: #091f40" transform="rotate(-0 83.412 48.338437)" x="83.412" y="48.338437">Non-local: substantive refugee/displacement provisions</text>
+</g>
+<g id="patch_115">
+<path d="M 58.212 61.714688  L 76.212 61.714688  L 76.212 55.414688  L 58.212 55.414688  z " style="fill: #b8bcc2"></path>
+</g>
+<g id="text_25">
+<text style="font-size: 9px; font-family: 'Segoe UI'; text-anchor: start; fill: #091f40" transform="rotate(-0 83.412 61.714688)" x="83.412" y="61.714688">Non-local: no substantive refugee/displacement provisions</text>
+</g>
+<g id="patch_116">
+<path d="M 58.212 75.090937  L 76.212 75.090937  L 76.212 68.790937  L 58.212 68.790937  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter"></path>
+</g>
+<g id="text_26">
+<text style="font-size: 9px; font-family: 'Segoe UI'; text-anchor: start; fill: #091f40" transform="rotate(-0 83.412 75.090937)" x="83.412" y="75.090937">Local agreements (excluded from the percentage)</text>
+</g>
+</g>
+</g>
+<defs>
+<clippath id="p8dbe3b7e23">
+<rect height="154.718182" width="790.56" x="56.16" y="111.6"></rect>
+</clippath>
+<clippath id="p8f8db4d70a">
+<rect height="70.326446" width="790.56" x="56.16" y="313.577554"></rect>
+</clippath>
+</defs>
+<defs>
+<pattern height="72" id="h5cf5177ec6" patternunits="userSpaceOnUse" width="72" x="0" y="0">
+<rect fill="#f5f6f7" height="73" width="73" x="0" y="0"></rect>
+<path d="M -36 36  L 36 -36  M -33 39  L 39 -33  M -30 42  L 42 -30  M -27 45  L 45 -27  M -24 48  L 48 -24  M -21 51  L 51 -21  M -18 54  L 54 -18  M -15 57  L 57 -15  M -12 60  L 60 -12  M -9 63  L 63 -9  M -6 66  L 66 -6  M -3 69  L 69 -3  M 0 72  L 72 0  M 3 75  L 75 3  M 6 78  L 78 6  M 9 81  L 81 9  M 12 84  L 84 12  M 15 87  L 87 15  M 18 90  L 90 18  M 21 93  L 93 21  M 24 96  L 96 24  M 27 99  L 99 27  M 30 102  L 102 30  M 33 105  L 105 33  M 36 108  L 108 36  " style="fill: #707986; stroke: #707986; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"></path>
+</pattern>
+</defs>
+<rect aria-label="1990: 3 non-local agreements with substantive provisions; 41 without; 0 local agreements excluded. 6.8% of 44 non-local agreements." class="annual-year-hit" data-local="0" data-percent="6.8182" data-total="44" data-with="3" data-without="41" data-year="1990" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="61.58967032967031" y="111.60000000000001"><title>1990: 3 non-local agreements with substantive provisions; 41 without; 0 local agreements excluded. 6.8% of 44 non-local agreements.</title></rect><rect aria-label="1991: 11 non-local agreements with substantive provisions; 71 without; 2 local agreements excluded. 13.4% of 82 non-local agreements." class="annual-year-hit" data-local="2" data-percent="13.4146" data-total="82" data-with="11" data-without="71" data-year="1991" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="83.30835164835158" y="111.60000000000001"><title>1991: 11 non-local agreements with substantive provisions; 71 without; 2 local agreements excluded. 13.4% of 82 non-local agreements.</title></rect><rect aria-label="1992: 17 non-local agreements with substantive provisions; 62 without; 4 local agreements excluded. 21.5% of 79 non-local agreements." class="annual-year-hit" data-local="4" data-percent="21.519" data-total="79" data-with="17" data-without="62" data-year="1992" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="105.02703296703284" y="111.60000000000001"><title>1992: 17 non-local agreements with substantive provisions; 62 without; 4 local agreements excluded. 21.5% of 79 non-local agreements.</title></rect><rect aria-label="1993: 18 non-local agreements with substantive provisions; 70 without; 5 local agreements excluded. 20.5% of 88 non-local agreements." class="annual-year-hit" data-local="5" data-percent="20.4545" data-total="88" data-with="18" data-without="70" data-year="1993" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="126.74571428571413" y="111.60000000000001"><title>1993: 18 non-local agreements with substantive provisions; 70 without; 5 local agreements excluded. 20.5% of 88 non-local agreements.</title></rect><rect aria-label="1994: 16 non-local agreements with substantive provisions; 76 without; 1 local agreements excluded. 17.4% of 92 non-local agreements." class="annual-year-hit" data-local="1" data-percent="17.3913" data-total="92" data-with="16" data-without="76" data-year="1994" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="148.46439560439538" y="111.60000000000001"><title>1994: 16 non-local agreements with substantive provisions; 76 without; 1 local agreements excluded. 17.4% of 92 non-local agreements.</title></rect><rect aria-label="1995: 11 non-local agreements with substantive provisions; 53 without; 1 local agreements excluded. 17.2% of 64 non-local agreements." class="annual-year-hit" data-local="1" data-percent="17.1875" data-total="64" data-with="11" data-without="53" data-year="1995" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="170.18307692307664" y="111.60000000000001"><title>1995: 11 non-local agreements with substantive provisions; 53 without; 1 local agreements excluded. 17.2% of 64 non-local agreements.</title></rect><rect aria-label="1996: 12 non-local agreements with substantive provisions; 54 without; 1 local agreements excluded. 18.2% of 66 non-local agreements." class="annual-year-hit" data-local="1" data-percent="18.1818" data-total="66" data-with="12" data-without="54" data-year="1996" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="191.90175824175793" y="111.60000000000001"><title>1996: 12 non-local agreements with substantive provisions; 54 without; 1 local agreements excluded. 18.2% of 66 non-local agreements.</title></rect><rect aria-label="1997: 15 non-local agreements with substantive provisions; 55 without; 2 local agreements excluded. 21.4% of 70 non-local agreements." class="annual-year-hit" data-local="2" data-percent="21.4286" data-total="70" data-with="15" data-without="55" data-year="1997" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="213.6204395604392" y="111.60000000000001"><title>1997: 15 non-local agreements with substantive provisions; 55 without; 2 local agreements excluded. 21.4% of 70 non-local agreements.</title></rect><rect aria-label="1998: 9 non-local agreements with substantive provisions; 57 without; 1 local agreements excluded. 13.6% of 66 non-local agreements." class="annual-year-hit" data-local="1" data-percent="13.6364" data-total="66" data-with="9" data-without="57" data-year="1998" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="235.33912087912043" y="111.60000000000001"><title>1998: 9 non-local agreements with substantive provisions; 57 without; 1 local agreements excluded. 13.6% of 66 non-local agreements.</title></rect><rect aria-label="1999: 7 non-local agreements with substantive provisions; 75 without; 4 local agreements excluded. 8.5% of 82 non-local agreements." class="annual-year-hit" data-local="4" data-percent="8.5366" data-total="82" data-with="7" data-without="75" data-year="1999" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="257.05780219780166" y="111.60000000000001"><title>1999: 7 non-local agreements with substantive provisions; 75 without; 4 local agreements excluded. 8.5% of 82 non-local agreements.</title></rect><rect aria-label="2000: 9 non-local agreements with substantive provisions; 51 without; 2 local agreements excluded. 15.0% of 60 non-local agreements." class="annual-year-hit" data-local="2" data-percent="15.0" data-total="60" data-with="9" data-without="51" data-year="2000" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="278.776483516483" y="111.60000000000001"><title>2000: 9 non-local agreements with substantive provisions; 51 without; 2 local agreements excluded. 15.0% of 60 non-local agreements.</title></rect><rect aria-label="2001: 7 non-local agreements with substantive provisions; 53 without; 1 local agreements excluded. 11.7% of 60 non-local agreements." class="annual-year-hit" data-local="1" data-percent="11.6667" data-total="60" data-with="7" data-without="53" data-year="2001" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="300.49516483516425" y="111.60000000000001"><title>2001: 7 non-local agreements with substantive provisions; 53 without; 1 local agreements excluded. 11.7% of 60 non-local agreements.</title></rect><rect aria-label="2002: 7 non-local agreements with substantive provisions; 47 without; 5 local agreements excluded. 13.0% of 54 non-local agreements." class="annual-year-hit" data-local="5" data-percent="12.963" data-total="54" data-with="7" data-without="47" data-year="2002" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="322.2138461538455" y="111.60000000000001"><title>2002: 7 non-local agreements with substantive provisions; 47 without; 5 local agreements excluded. 13.0% of 54 non-local agreements.</title></rect><rect aria-label="2003: 11 non-local agreements with substantive provisions; 40 without; 2 local agreements excluded. 21.6% of 51 non-local agreements." class="annual-year-hit" data-local="2" data-percent="21.5686" data-total="51" data-with="11" data-without="40" data-year="2003" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="343.9325274725268" y="111.60000000000001"><title>2003: 11 non-local agreements with substantive provisions; 40 without; 2 local agreements excluded. 21.6% of 51 non-local agreements.</title></rect><rect aria-label="2004: 12 non-local agreements with substantive provisions; 34 without; 2 local agreements excluded. 26.1% of 46 non-local agreements." class="annual-year-hit" data-local="2" data-percent="26.087" data-total="46" data-with="12" data-without="34" data-year="2004" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="365.65120879120803" y="111.60000000000001"><title>2004: 12 non-local agreements with substantive provisions; 34 without; 2 local agreements excluded. 26.1% of 46 non-local agreements.</title></rect><rect aria-label="2005: 6 non-local agreements with substantive provisions; 23 without; 2 local agreements excluded. 20.7% of 29 non-local agreements." class="annual-year-hit" data-local="2" data-percent="20.6897" data-total="29" data-with="6" data-without="23" data-year="2005" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="387.3698901098893" y="111.60000000000001"><title>2005: 6 non-local agreements with substantive provisions; 23 without; 2 local agreements excluded. 20.7% of 29 non-local agreements.</title></rect><rect aria-label="2006: 12 non-local agreements with substantive provisions; 49 without; 3 local agreements excluded. 19.7% of 61 non-local agreements." class="annual-year-hit" data-local="3" data-percent="19.6721" data-total="61" data-with="12" data-without="49" data-year="2006" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="409.08857142857056" y="111.60000000000001"><title>2006: 12 non-local agreements with substantive provisions; 49 without; 3 local agreements excluded. 19.7% of 61 non-local agreements.</title></rect><rect aria-label="2007: 7 non-local agreements with substantive provisions; 26 without; 10 local agreements excluded. 21.2% of 33 non-local agreements." class="annual-year-hit" data-local="10" data-percent="21.2121" data-total="33" data-with="7" data-without="26" data-year="2007" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="430.8072527472518" y="111.60000000000001"><title>2007: 7 non-local agreements with substantive provisions; 26 without; 10 local agreements excluded. 21.2% of 33 non-local agreements.</title></rect><rect aria-label="2008: 12 non-local agreements with substantive provisions; 44 without; 10 local agreements excluded. 21.4% of 56 non-local agreements." class="annual-year-hit" data-local="10" data-percent="21.4286" data-total="56" data-with="12" data-without="44" data-year="2008" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="452.52593406593303" y="111.60000000000001"><title>2008: 12 non-local agreements with substantive provisions; 44 without; 10 local agreements excluded. 21.4% of 56 non-local agreements.</title></rect><rect aria-label="2009: 3 non-local agreements with substantive provisions; 29 without; 15 local agreements excluded. 9.4% of 32 non-local agreements." class="annual-year-hit" data-local="15" data-percent="9.375" data-total="32" data-with="3" data-without="29" data-year="2009" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="474.2446153846143" y="111.60000000000001"><title>2009: 3 non-local agreements with substantive provisions; 29 without; 15 local agreements excluded. 9.4% of 32 non-local agreements.</title></rect><rect aria-label="2010: 5 non-local agreements with substantive provisions; 24 without; 3 local agreements excluded. 17.2% of 29 non-local agreements." class="annual-year-hit" data-local="3" data-percent="17.2414" data-total="29" data-with="5" data-without="24" data-year="2010" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="495.96329670329555" y="111.60000000000001"><title>2010: 5 non-local agreements with substantive provisions; 24 without; 3 local agreements excluded. 17.2% of 29 non-local agreements.</title></rect><rect aria-label="2011: 7 non-local agreements with substantive provisions; 41 without; 5 local agreements excluded. 14.6% of 48 non-local agreements." class="annual-year-hit" data-local="5" data-percent="14.5833" data-total="48" data-with="7" data-without="41" data-year="2011" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="517.681978021977" y="111.60000000000001"><title>2011: 7 non-local agreements with substantive provisions; 41 without; 5 local agreements excluded. 14.6% of 48 non-local agreements.</title></rect><rect aria-label="2012: 5 non-local agreements with substantive provisions; 52 without; 6 local agreements excluded. 8.8% of 57 non-local agreements." class="annual-year-hit" data-local="6" data-percent="8.7719" data-total="57" data-with="5" data-without="52" data-year="2012" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="539.4006593406582" y="111.60000000000001"><title>2012: 5 non-local agreements with substantive provisions; 52 without; 6 local agreements excluded. 8.8% of 57 non-local agreements.</title></rect><rect aria-label="2013: 11 non-local agreements with substantive provisions; 24 without; 8 local agreements excluded. 31.4% of 35 non-local agreements." class="annual-year-hit" data-local="8" data-percent="31.4286" data-total="35" data-with="11" data-without="24" data-year="2013" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="561.1193406593394" y="111.60000000000001"><title>2013: 11 non-local agreements with substantive provisions; 24 without; 8 local agreements excluded. 31.4% of 35 non-local agreements.</title></rect><rect aria-label="2014: 7 non-local agreements with substantive provisions; 45 without; 32 local agreements excluded. 13.5% of 52 non-local agreements." class="annual-year-hit" data-local="32" data-percent="13.4615" data-total="52" data-with="7" data-without="45" data-year="2014" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="582.8380219780207" y="111.60000000000001"><title>2014: 7 non-local agreements with substantive provisions; 45 without; 32 local agreements excluded. 13.5% of 52 non-local agreements.</title></rect><rect aria-label="2015: 8 non-local agreements with substantive provisions; 38 without; 24 local agreements excluded. 17.4% of 46 non-local agreements." class="annual-year-hit" data-local="24" data-percent="17.3913" data-total="46" data-with="8" data-without="38" data-year="2015" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="604.5567032967019" y="111.60000000000001"><title>2015: 8 non-local agreements with substantive provisions; 38 without; 24 local agreements excluded. 17.4% of 46 non-local agreements.</title></rect><rect aria-label="2016: 4 non-local agreements with substantive provisions; 37 without; 38 local agreements excluded. 9.8% of 41 non-local agreements." class="annual-year-hit" data-local="38" data-percent="9.7561" data-total="41" data-with="4" data-without="37" data-year="2016" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="626.2753846153831" y="111.60000000000001"><title>2016: 4 non-local agreements with substantive provisions; 37 without; 38 local agreements excluded. 9.8% of 41 non-local agreements.</title></rect><rect aria-label="2017: 5 non-local agreements with substantive provisions; 26 without; 47 local agreements excluded. 16.1% of 31 non-local agreements." class="annual-year-hit" data-local="47" data-percent="16.129" data-total="31" data-with="5" data-without="26" data-year="2017" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="647.9940659340645" y="111.60000000000001"><title>2017: 5 non-local agreements with substantive provisions; 26 without; 47 local agreements excluded. 16.1% of 31 non-local agreements.</title></rect><rect aria-label="2018: 4 non-local agreements with substantive provisions; 27 without; 57 local agreements excluded. 12.9% of 31 non-local agreements." class="annual-year-hit" data-local="57" data-percent="12.9032" data-total="31" data-with="4" data-without="27" data-year="2018" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="669.7127472527457" y="111.60000000000001"><title>2018: 4 non-local agreements with substantive provisions; 27 without; 57 local agreements excluded. 12.9% of 31 non-local agreements.</title></rect><rect aria-label="2019: 5 non-local agreements with substantive provisions; 16 without; 37 local agreements excluded. 23.8% of 21 non-local agreements." class="annual-year-hit" data-local="37" data-percent="23.8095" data-total="21" data-with="5" data-without="16" data-year="2019" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="691.4314285714271" y="111.60000000000001"><title>2019: 5 non-local agreements with substantive provisions; 16 without; 37 local agreements excluded. 23.8% of 21 non-local agreements.</title></rect><rect aria-label="2020: 8 non-local agreements with substantive provisions; 25 without; 12 local agreements excluded. 24.2% of 33 non-local agreements." class="annual-year-hit" data-local="12" data-percent="24.2424" data-total="33" data-with="8" data-without="25" data-year="2020" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="713.1501098901083" y="111.60000000000001"><title>2020: 8 non-local agreements with substantive provisions; 25 without; 12 local agreements excluded. 24.2% of 33 non-local agreements.</title></rect><rect aria-label="2021: 0 non-local agreements with substantive provisions; 28 without; 9 local agreements excluded. 0.0% of 28 non-local agreements." class="annual-year-hit" data-local="9" data-percent="0.0" data-total="28" data-with="0" data-without="28" data-year="2021" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="734.8687912087896" y="111.60000000000001"><title>2021: 0 non-local agreements with substantive provisions; 28 without; 9 local agreements excluded. 0.0% of 28 non-local agreements.</title></rect><rect aria-label="2022: 3 non-local agreements with substantive provisions; 28 without; 6 local agreements excluded. 9.7% of 31 non-local agreements." class="annual-year-hit" data-local="6" data-percent="9.6774" data-total="31" data-with="3" data-without="28" data-year="2022" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="756.5874725274708" y="111.60000000000001"><title>2022: 3 non-local agreements with substantive provisions; 28 without; 6 local agreements excluded. 9.7% of 31 non-local agreements.</title></rect><rect aria-label="2023: 2 non-local agreements with substantive provisions; 61 without; 15 local agreements excluded. 3.2% of 63 non-local agreements." class="annual-year-hit" data-local="15" data-percent="3.1746" data-total="63" data-with="2" data-without="61" data-year="2023" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="778.306153846152" y="111.60000000000001"><title>2023: 2 non-local agreements with substantive provisions; 61 without; 15 local agreements excluded. 3.2% of 63 non-local agreements.</title></rect><rect aria-label="2024: 6 non-local agreements with substantive provisions; 41 without; 15 local agreements excluded. 12.8% of 47 non-local agreements." class="annual-year-hit" data-local="15" data-percent="12.766" data-total="47" data-with="6" data-without="41" data-year="2024" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="800.0248351648333" y="111.60000000000001"><title>2024: 6 non-local agreements with substantive provisions; 41 without; 15 local agreements excluded. 12.8% of 47 non-local agreements.</title></rect><rect aria-label="2025: 9 non-local agreements with substantive provisions; 44 without; 9 local agreements excluded. 17.0% of 53 non-local agreements." class="annual-year-hit" data-local="9" data-percent="16.9811" data-total="53" data-with="9" data-without="44" data-year="2025" fill="transparent" height="272.30400000000003" role="button" tabindex="0" width="19.54681318681314" x="821.7435164835146" y="111.60000000000001"><title>2025: 9 non-local agreements with substantive provisions; 44 without; 9 local agreements excluded. 17.0% of 53 non-local agreements.</title></rect></svg></div><figcaption>Calculated from the main PA-X v10 CSV. Hatched bars on top show excluded local agreements. Red shows non-local agreements with substantive provisions; grey shows non-local agreements without substantive provisions. The percentage uses only red plus grey. Each agreement is counted once within its year.</figcaption></figure><p class="annual-method-note"><strong>Selection matters.</strong> This example uses <code>GRefSubs = 1</code> for substantive provisions. <code>GRef &gt; 0</code> would answer the broader question of any coded reference, including rhetorical references. Always retain the annual counts alongside the percentages.</p><p class="annual-latest">For 2025, 9 of 53 non-local agreements (17.0%) contain these substantive provisions. The 9 local agreements shown with hatching are excluded from that calculation.</p><div class="annual-downloads"><a download="" href="exports/PA-X-refugee-provisions-by-year.csv">Download annual counts and percentages (CSV)</a><a download="" href="assets/annual-refugee-provisions.svg">Download chart (SVG)</a><a href="terminology.html?term=GRefSubs#topics">Read the topic definition</a></div><details class="annual-table"><summary>Annual values and calculation</summary><div class="table-wrap"><table><thead><tr><th scope="col">Year</th><th scope="col">Local, excluded</th><th scope="col">Non-local total</th><th scope="col">With provision</th><th scope="col">Share of non-local</th></tr></thead><tbody><tr><td>1990</td><td>0</td><td>44</td><td>3</td><td>6.8%</td></tr><tr><td>1991</td><td>2</td><td>82</td><td>11</td><td>13.4%</td></tr><tr><td>1992</td><td>4</td><td>79</td><td>17</td><td>21.5%</td></tr><tr><td>1993</td><td>5</td><td>88</td><td>18</td><td>20.5%</td></tr><tr><td>1994</td><td>1</td><td>92</td><td>16</td><td>17.4%</td></tr><tr><td>1995</td><td>1</td><td>64</td><td>11</td><td>17.2%</td></tr><tr><td>1996</td><td>1</td><td>66</td><td>12</td><td>18.2%</td></tr><tr><td>1997</td><td>2</td><td>70</td><td>15</td><td>21.4%</td></tr><tr><td>1998</td><td>1</td><td>66</td><td>9</td><td>13.6%</td></tr><tr><td>1999</td><td>4</td><td>82</td><td>7</td><td>8.5%</td></tr><tr><td>2000</td><td>2</td><td>60</td><td>9</td><td>15.0%</td></tr><tr><td>2001</td><td>1</td><td>60</td><td>7</td><td>11.7%</td></tr><tr><td>2002</td><td>5</td><td>54</td><td>7</td><td>13.0%</td></tr><tr><td>2003</td><td>2</td><td>51</td><td>11</td><td>21.6%</td></tr><tr><td>2004</td><td>2</td><td>46</td><td>12</td><td>26.1%</td></tr><tr><td>2005</td><td>2</td><td>29</td><td>6</td><td>20.7%</td></tr><tr><td>2006</td><td>3</td><td>61</td><td>12</td><td>19.7%</td></tr><tr><td>2007</td><td>10</td><td>33</td><td>7</td><td>21.2%</td></tr><tr><td>2008</td><td>10</td><td>56</td><td>12</td><td>21.4%</td></tr><tr><td>2009</td><td>15</td><td>32</td><td>3</td><td>9.4%</td></tr><tr><td>2010</td><td>3</td><td>29</td><td>5</td><td>17.2%</td></tr><tr><td>2011</td><td>5</td><td>48</td><td>7</td><td>14.6%</td></tr><tr><td>2012</td><td>6</td><td>57</td><td>5</td><td>8.8%</td></tr><tr><td>2013</td><td>8</td><td>35</td><td>11</td><td>31.4%</td></tr><tr><td>2014</td><td>32</td><td>52</td><td>7</td><td>13.5%</td></tr><tr><td>2015</td><td>24</td><td>46</td><td>8</td><td>17.4%</td></tr><tr><td>2016</td><td>38</td><td>41</td><td>4</td><td>9.8%</td></tr><tr><td>2017</td><td>47</td><td>31</td><td>5</td><td>16.1%</td></tr><tr><td>2018</td><td>57</td><td>31</td><td>4</td><td>12.9%</td></tr><tr><td>2019</td><td>37</td><td>21</td><td>5</td><td>23.8%</td></tr><tr><td>2020</td><td>12</td><td>33</td><td>8</td><td>24.2%</td></tr><tr><td>2021</td><td>9</td><td>28</td><td>0</td><td>0.0%</td></tr><tr><td>2022</td><td>6</td><td>31</td><td>3</td><td>9.7%</td></tr><tr><td>2023</td><td>15</td><td>63</td><td>2</td><td>3.2%</td></tr><tr><td>2024</td><td>15</td><td>47</td><td>6</td><td>12.8%</td></tr><tr><td>2025</td><td>9</td><td>53</td><td>9</td><td>17.0%</td></tr></tbody></table></div></details></div></article>
+</section><section class="chapter" id="planner"><p class="eyebrow">05 / Put the question into practice</p><h2>Constructing a PA-X search</h2><p class="section-lead">Choose real PA-X options. Open the resulting search in a new tab, or use the CSV instructions to select the equivalent information in your data file.</p><div class="search-orientation"><h3>Where your choices appear on PA-X Search</h3><p>The public search form starts with agreement location, then agreement content and name or date. For an issue search, choose a Country/Entity if needed, then use Category, Issue or Sub-issue to describe the provision you want to find. Advanced Filters are available below these sections.</p></div><figure class="search-example"><img alt="Screenshot of the PA-X search form showing the Location, Content, Name and Date sections, with Advanced Filters and PA-X Versions collapsed" src="assets/pax-search-page.png"/><figcaption>The PA-X Search page groups filters by agreement location, content, and name and date. Open Advanced Filters for further restrictions. Screenshot supplied during review; the query builder below uses a simplified selection of these controls.</figcaption></figure><form id="query-form"><div class="form-grid"><label>How will you work?<select name="route"><option value="search">PA-X Search page</option><option value="csv">Main PA-X CSV / spreadsheet</option></select></label><label>Show results as<select name="view"><option value="list">Agreement list</option><option value="timeline">Timeline and agreement list</option></select></label><label class="full">Your question<textarea name="question" placeholder="What would you like to learn?" rows="2"></textarea></label><div><label>Countries/entities<select aria-describedby="country-help" name="countries"><option value="">All countries/entities</option></select></label><p class="small" id="country-help">Choose one or more countries/entities. Add each from the dropdown; leave the selection empty for all.</p><div aria-label="Selected countries and entities" class="country-selections" id="selected-countries"></div></div><label>Peace process<select name="process"><option value="">All processes</option></select></label><label>Agreement stage<select name="stage"><option value="">All stages</option></select></label><label>Agreement types<select name="local"><option value="all">Include all conflict levels</option><option value="exclude">Exclude local agreements</option><option value="only">Local agreements only</option></select></label><label>Signed on or after<input name="signed_after" type="date"/></label><label>Signed on or before<input name="signed_before" type="date"/></label><label class="full">Find a topic to add<input aria-describedby="topic-results-count" id="topic-filter" placeholder="Search topic labels or CSV codes, e.g. refugees or GRef" type="search"/></label><div class="full topic-results-panel"><p class="small" id="topic-results-count" role="status"></p><div aria-label="Matching topics" id="topic-results"></div></div><div class="full"><p class="selection-heading">Selected topics</p><div aria-live="polite" id="selected-topics"></div></div><label>Match the selected topics<select name="match"><option value="True">Any selected topic (OR)</option><option value="False">All selected topics (AND)</option></select></label><label>Words in agreement text<input name="text" placeholder="Optional word or phrase"/></label><label class="full">Notes on selection and interpretation<textarea name="notes" placeholder="Why these agreements? What could this selection leave out?" rows="2"></textarea></label></div><div class="actions no-print"><button class="button" type="submit">Update search</button><button id="save-plan" type="button">Download instructions (.txt)</button></div></form><article aria-live="polite" class="plan-output" id="query-output"></article><p class="small">The builder uses the main PA-X search. For specialist Gender or Local coding, use the links on those resource cards. Country and process restrictions combine; incompatible choices may return no agreements.</p></section><section class="chapter" id="interpret"><p class="eyebrow">06 / Interpret the data</p><h2>Interpreting PA-X data</h2><div class="interpret-grid"><article class="interpret-card"><div class="interpret-visual" aria-hidden="true"><span class="interpret-token">Agreement text</span><span class="interpret-symbol">→</span><span class="interpret-token">Commitment</span><span class="interpret-visual-note full">Outcome needs separate evidence</span></div><h3>Agreement commitments and implementation</h3><p>Text can show what parties agreed. It cannot by itself show implementation, compliance or a lasting change on the ground.</p></article><article class="interpret-card"><div class="interpret-visual" aria-hidden="true"><span class="interpret-filter">Place</span><span class="interpret-filter">Time</span><span class="interpret-filter">Agreement type</span></div><h3>Scope and selection</h3><p>Different periods, processes and agreement types create different comparisons. Explain who or what is included and excluded.</p></article><article class="interpret-card"><div class="interpret-visual" aria-hidden="true"><span class="interpret-code">Code = 0</span><span class="interpret-symbol">→</span><span class="interpret-token">No specific mention</span></div><h3>Interpreting the absence of a code</h3><p>“No specific mention” means the text was not coded as addressing that issue. It does not show a deliberate decision to exclude it, or that it was unimportant in negotiations. Missing information is a separate matter.</p></article><article class="interpret-card"><div class="interpret-visual" aria-hidden="true"><span class="interpret-node">A</span><span class="interpret-connection"></span><span class="interpret-node">B</span><span class="interpret-visual-note">Observed together</span></div><h3>Association and causal inference</h3><p>Topics appearing together do not show that one caused the other. Shared signatories do not establish an alliance, influence or effectiveness. Topics in one agreement may occur in different passages.</p></article></div></section><section class="chapter tinted" id="briefing"><p class="eyebrow">For policy and country teams</p><h2>Preparing a country or policy briefing</h2><ol class="steps"><li><strong>Orient yourself.</strong> Open a country timeline, identify the relevant processes and read a few agreements.</li><li><strong>Focus on your question.</strong> Find the relevant topic definition, then search for its provisions. Include the context needed to explain the selection.</li><li><strong>Keep the evidence.</strong> Save agreement coding PDFs or a CSV, and note which passages support your briefing.</li><li><strong>Add research and expertise.</strong> Read the relevant PeaceRep findings and consult country or thematic researchers about context, implementation and interpretation.</li><li><strong>Write a bounded conclusion.</strong> Say what the agreements provide for, what your selection covers, and which questions remain unanswered.</li></ol><aside class="resource-next"><h4>Contextual data for a briefing</h4><p><a href="https://www.peaceagreements.org/tracker/" rel="noopener noreferrer" target="_blank">PA-X Tracker country profiles</a> bring together available institutional timelines, process overviews, contextual indicators and agreement-actor networks. Choose the component that matches your briefing question, and check its sources and coverage.</p></aside><div class="callout"><h3>Briefing structure</h3><p>The policy question · the agreements examined · two or three relevant commitments with links · differences or exceptions · what the evidence cannot establish · questions for further research or discussion.</p></div><p><a href="https://peacerep.org/country-findings/sudan/" rel="noopener noreferrer" target="_blank">Example: Sudan research findings ↗</a> · <a href="https://peacerep.org/key-findings/gender-peace-security/" rel="noopener noreferrer" target="_blank">Gender, peace and security findings ↗</a> · <a href="mailto:PeaceRep@ed.ac.uk">Contact PeaceRep</a></p><p class="small">The guide supports briefings and shared learning. It does not replace conversation between researchers, policy teams, civic actors and practitioners.</p></section>
+<section class="chapter sources" id="sources"><p class="eyebrow">Cite and explore the sources</p><h2>Remember to cite the data</h2><p>Citing PA-X gives credit to the research and expertise behind the data, identifies the resources you have used, and supports transparent, reproducible work. Follow the citation guidance and terms of use provided with the dataset or resource you use.</p><div class="citation-card"><h3>Copy the PA-X citation</h3><blockquote id="citation">Bell, C., &amp; Badanjak, S. (2019). Introducing PA-X: A new peace agreement database and dataset. Journal of Peace Research, 56(3), 452–466. https://www.peaceagreements.org/</blockquote><button class="no-print" data-copy="citation" type="button">Copy citation</button><p class="small" id="copy-status" role="status"></p><p>For analysis, also identify the dataset file you used, cite the appropriate codebook, and link the agreements or passages behind your findings. Specialist datasets provide their own citation instructions.</p></div><div class="source-reference-group"><h3>Sources used in this guide</h3><p>The numbered links support explanations and examples in this guide. They are source references, not seven citations to copy into your own work.</p><ol><li id="s-about"><a href="https://www.peaceagreements.org/about-pax/" rel="noopener noreferrer" target="_blank">About PA-X</a>: purpose, audience and background.</li><li id="s-downloads"><a href="https://www.peaceagreements.org/downloads/" rel="noopener noreferrer" target="_blank">Downloads and citations</a>: main and specialist datasets, Corpus and codebooks.</li><li id="s-codebook"><a href="https://www.peaceagreements.org/cms/documents/3956/PA_X_codebook_v10.pdf" rel="noopener noreferrer" target="_blank">PA-X Codebook v10</a>: definitions, variables and coding rules. See PDF pp.15–24 for core definitions and metadata.</li><li id="s-provenance"><a href="https://tvancisin.github.io/provenance/" rel="noopener noreferrer" target="_blank">Provenance of Peacebuilding</a>: production activities and research expertise.</li><li id="s-search"><a href="https://www.peaceagreements.org/agreements/search/" rel="noopener noreferrer" target="_blank">PA-X Search</a>: public labels, filter options and agreement records.</li><li id="s-tools"><a href="https://www.peaceagreements.org/visualizations/" rel="noopener noreferrer" target="_blank">PA-X visualisations</a> and <a href="https://peacerep.org/peacetech-tools/" rel="noopener noreferrer" target="_blank">PeaceRep tools</a>: further ways to explore the data. Back and Forth design credits: Tobias Kauer, Tomas Vancisin and Niamh Henry, PeaceRep Vis Team, University of Edinburgh.</li><li id="s-actors"><a href="https://datashare.ed.ac.uk/items/8b4b563a-3993-42e1-b867-7d3b67353919" rel="noopener noreferrer" target="_blank">PAA-X public dataset record</a>: actor data and documentation.</li></ol></div>
+</section></main></div><footer><div><img alt="PeaceRep" src="assets/peacerep-brand.png"/><p>A guide to PA-X · Review edition · September 2026</p></div><a href="https://www.ed.ac.uk/" rel="noopener noreferrer" target="_blank"><img alt="The University of Edinburgh" src="assets/edinburgh.png"/></a><p class="small"><a href="index.html#sources">Sources</a><br/><a href="https://www.peaceagreements.org/" rel="noopener noreferrer" target="_blank">Visit PA-X</a> · <a href="https://peacerep.org/" rel="noopener noreferrer" target="_blank">Visit PeaceRep</a></p></footer></body></html>

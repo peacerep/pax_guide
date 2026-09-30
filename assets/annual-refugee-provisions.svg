@@ -1,0 +1,615 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="446.4pt" viewBox="0 0 864 446.4" version="1.1" class="annual-interactive-svg" role="group" aria-label="Annual refugee and displacement provisions. Hover, focus or tap a year for its values.">
+ <metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-09-29T21:40:31.917666</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.10.6, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 446.4  L 864 446.4  L 864 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 56.16 266.318182  L 846.72 266.318182  L 846.72 111.6  L 56.16 111.6  z " style="fill: #ffffff" />
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1" />
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2" />
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3" />
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4" />
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5" />
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6" />
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7" />
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8" />
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_9">
+      <path d="M 56.16 266.318182  L 846.72 266.318182  " clip-path="url(#p8dbe3b7e23)" style="fill: none; stroke: #e8edf2; stroke-width: 0.7; stroke-linecap: square" />
+     </g>
+     <g id="line2d_10" />
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: end; fill: #52647b" x="50.16" y="270.019744" transform="rotate(-0 50.16 270.019744)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_11">
+      <path d="M 56.16 234.62987  L 846.72 234.62987  " clip-path="url(#p8dbe3b7e23)" style="fill: none; stroke: #e8edf2; stroke-width: 0.7; stroke-linecap: square" />
+     </g>
+     <g id="line2d_12" />
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: end; fill: #52647b" x="50.16" y="238.331433" transform="rotate(-0 50.16 238.331433)">20</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_13">
+      <path d="M 56.16 202.941558  L 846.72 202.941558  " clip-path="url(#p8dbe3b7e23)" style="fill: none; stroke: #e8edf2; stroke-width: 0.7; stroke-linecap: square" />
+     </g>
+     <g id="line2d_14" />
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: end; fill: #52647b" x="50.16" y="206.643121" transform="rotate(-0 50.16 206.643121)">40</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_15">
+      <path d="M 56.16 171.253247  L 846.72 171.253247  " clip-path="url(#p8dbe3b7e23)" style="fill: none; stroke: #e8edf2; stroke-width: 0.7; stroke-linecap: square" />
+     </g>
+     <g id="line2d_16" />
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: end; fill: #52647b" x="50.16" y="174.954809" transform="rotate(-0 50.16 174.954809)">60</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_17">
+      <path d="M 56.16 139.564935  L 846.72 139.564935  " clip-path="url(#p8dbe3b7e23)" style="fill: none; stroke: #e8edf2; stroke-width: 0.7; stroke-linecap: square" />
+     </g>
+     <g id="line2d_18" />
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: end; fill: #52647b" x="50.16" y="143.266498" transform="rotate(-0 50.16 143.266498)">80</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #091f40" x="33.025625" y="188.959091" transform="rotate(-90 33.025625 188.959091)">Agreements</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 62.892791 266.318182  L 79.833363 266.318182  L 79.833363 261.564935  L 62.892791 261.564935  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_4">
+    <path d="M 84.611473 266.318182  L 101.552044 266.318182  L 101.552044 248.88961  L 84.611473 248.88961  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_5">
+    <path d="M 106.330154 266.318182  L 123.270725 266.318182  L 123.270725 239.383117  L 106.330154 239.383117  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_6">
+    <path d="M 128.048835 266.318182  L 144.989407 266.318182  L 144.989407 237.798701  L 128.048835 237.798701  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_7">
+    <path d="M 149.767516 266.318182  L 166.708088 266.318182  L 166.708088 240.967532  L 149.767516 240.967532  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_8">
+    <path d="M 171.486198 266.318182  L 188.426769 266.318182  L 188.426769 248.88961  L 171.486198 248.88961  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_9">
+    <path d="M 193.204879 266.318182  L 210.145451 266.318182  L 210.145451 247.305195  L 193.204879 247.305195  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_10">
+    <path d="M 214.92356 266.318182  L 231.864132 266.318182  L 231.864132 242.551948  L 214.92356 242.551948  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_11">
+    <path d="M 236.642242 266.318182  L 253.582813 266.318182  L 253.582813 252.058442  L 236.642242 252.058442  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_12">
+    <path d="M 258.360923 266.318182  L 275.301495 266.318182  L 275.301495 255.227273  L 258.360923 255.227273  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_13">
+    <path d="M 280.079604 266.318182  L 297.020176 266.318182  L 297.020176 252.058442  L 280.079604 252.058442  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_14">
+    <path d="M 301.798286 266.318182  L 318.738857 266.318182  L 318.738857 255.227273  L 301.798286 255.227273  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_15">
+    <path d="M 323.516967 266.318182  L 340.457538 266.318182  L 340.457538 255.227273  L 323.516967 255.227273  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_16">
+    <path d="M 345.235648 266.318182  L 362.17622 266.318182  L 362.17622 248.88961  L 345.235648 248.88961  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_17">
+    <path d="M 366.95433 266.318182  L 383.894901 266.318182  L 383.894901 247.305195  L 366.95433 247.305195  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_18">
+    <path d="M 388.673011 266.318182  L 405.613582 266.318182  L 405.613582 256.811688  L 388.673011 256.811688  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_19">
+    <path d="M 410.391692 266.318182  L 427.332264 266.318182  L 427.332264 247.305195  L 410.391692 247.305195  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_20">
+    <path d="M 432.110374 266.318182  L 449.050945 266.318182  L 449.050945 255.227273  L 432.110374 255.227273  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_21">
+    <path d="M 453.829055 266.318182  L 470.769626 266.318182  L 470.769626 247.305195  L 453.829055 247.305195  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_22">
+    <path d="M 475.547736 266.318182  L 492.488308 266.318182  L 492.488308 261.564935  L 475.547736 261.564935  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_23">
+    <path d="M 497.266418 266.318182  L 514.206989 266.318182  L 514.206989 258.396104  L 497.266418 258.396104  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_24">
+    <path d="M 518.985099 266.318182  L 535.92567 266.318182  L 535.92567 255.227273  L 518.985099 255.227273  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_25">
+    <path d="M 540.70378 266.318182  L 557.644352 266.318182  L 557.644352 258.396104  L 540.70378 258.396104  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_26">
+    <path d="M 562.422462 266.318182  L 579.363033 266.318182  L 579.363033 248.88961  L 562.422462 248.88961  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_27">
+    <path d="M 584.141143 266.318182  L 601.081714 266.318182  L 601.081714 255.227273  L 584.141143 255.227273  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_28">
+    <path d="M 605.859824 266.318182  L 622.800396 266.318182  L 622.800396 253.642857  L 605.859824 253.642857  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_29">
+    <path d="M 627.578505 266.318182  L 644.519077 266.318182  L 644.519077 259.980519  L 627.578505 259.980519  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_30">
+    <path d="M 649.297187 266.318182  L 666.237758 266.318182  L 666.237758 258.396104  L 649.297187 258.396104  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_31">
+    <path d="M 671.015868 266.318182  L 687.95644 266.318182  L 687.95644 259.980519  L 671.015868 259.980519  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_32">
+    <path d="M 692.734549 266.318182  L 709.675121 266.318182  L 709.675121 258.396104  L 692.734549 258.396104  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_33">
+    <path d="M 714.453231 266.318182  L 731.393802 266.318182  L 731.393802 253.642857  L 714.453231 253.642857  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_34">
+    <path d="M 736.171912 266.318182  L 753.112484 266.318182  L 753.112484 266.318182  L 736.171912 266.318182  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_35">
+    <path d="M 757.890593 266.318182  L 774.831165 266.318182  L 774.831165 261.564935  L 757.890593 261.564935  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_36">
+    <path d="M 779.609275 266.318182  L 796.549846 266.318182  L 796.549846 263.149351  L 779.609275 263.149351  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_37">
+    <path d="M 801.327956 266.318182  L 818.268527 266.318182  L 818.268527 256.811688  L 801.327956 256.811688  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_38">
+    <path d="M 823.046637 266.318182  L 839.987209 266.318182  L 839.987209 252.058442  L 823.046637 252.058442  z " clip-path="url(#p8dbe3b7e23)" style="fill: #c43e48" />
+   </g>
+   <g id="patch_39">
+    <path d="M 62.892791 261.564935  L 79.833363 261.564935  L 79.833363 196.603896  L 62.892791 196.603896  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_40">
+    <path d="M 84.611473 248.88961  L 101.552044 248.88961  L 101.552044 136.396104  L 84.611473 136.396104  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_41">
+    <path d="M 106.330154 239.383117  L 123.270725 239.383117  L 123.270725 141.149351  L 106.330154 141.149351  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_42">
+    <path d="M 128.048835 237.798701  L 144.989407 237.798701  L 144.989407 126.88961  L 128.048835 126.88961  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_43">
+    <path d="M 149.767516 240.967532  L 166.708088 240.967532  L 166.708088 120.551948  L 149.767516 120.551948  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_44">
+    <path d="M 171.486198 248.88961  L 188.426769 248.88961  L 188.426769 164.915584  L 171.486198 164.915584  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_45">
+    <path d="M 193.204879 247.305195  L 210.145451 247.305195  L 210.145451 161.746753  L 193.204879 161.746753  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_46">
+    <path d="M 214.92356 242.551948  L 231.864132 242.551948  L 231.864132 155.409091  L 214.92356 155.409091  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_47">
+    <path d="M 236.642242 252.058442  L 253.582813 252.058442  L 253.582813 161.746753  L 236.642242 161.746753  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_48">
+    <path d="M 258.360923 255.227273  L 275.301495 255.227273  L 275.301495 136.396104  L 258.360923 136.396104  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_49">
+    <path d="M 280.079604 252.058442  L 297.020176 252.058442  L 297.020176 171.253247  L 280.079604 171.253247  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_50">
+    <path d="M 301.798286 255.227273  L 318.738857 255.227273  L 318.738857 171.253247  L 301.798286 171.253247  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_51">
+    <path d="M 323.516967 255.227273  L 340.457538 255.227273  L 340.457538 180.75974  L 323.516967 180.75974  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_52">
+    <path d="M 345.235648 248.88961  L 362.17622 248.88961  L 362.17622 185.512987  L 345.235648 185.512987  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_53">
+    <path d="M 366.95433 247.305195  L 383.894901 247.305195  L 383.894901 193.435065  L 366.95433 193.435065  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_54">
+    <path d="M 388.673011 256.811688  L 405.613582 256.811688  L 405.613582 220.37013  L 388.673011 220.37013  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_55">
+    <path d="M 410.391692 247.305195  L 427.332264 247.305195  L 427.332264 169.668831  L 410.391692 169.668831  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_56">
+    <path d="M 432.110374 255.227273  L 449.050945 255.227273  L 449.050945 214.032468  L 432.110374 214.032468  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_57">
+    <path d="M 453.829055 247.305195  L 470.769626 247.305195  L 470.769626 177.590909  L 453.829055 177.590909  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_58">
+    <path d="M 475.547736 261.564935  L 492.488308 261.564935  L 492.488308 215.616883  L 475.547736 215.616883  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_59">
+    <path d="M 497.266418 258.396104  L 514.206989 258.396104  L 514.206989 220.37013  L 497.266418 220.37013  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_60">
+    <path d="M 518.985099 255.227273  L 535.92567 255.227273  L 535.92567 190.266234  L 518.985099 190.266234  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_61">
+    <path d="M 540.70378 258.396104  L 557.644352 258.396104  L 557.644352 176.006494  L 540.70378 176.006494  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_62">
+    <path d="M 562.422462 248.88961  L 579.363033 248.88961  L 579.363033 210.863636  L 562.422462 210.863636  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_63">
+    <path d="M 584.141143 255.227273  L 601.081714 255.227273  L 601.081714 183.928571  L 584.141143 183.928571  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_64">
+    <path d="M 605.859824 253.642857  L 622.800396 253.642857  L 622.800396 193.435065  L 605.859824 193.435065  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_65">
+    <path d="M 627.578505 259.980519  L 644.519077 259.980519  L 644.519077 201.357143  L 627.578505 201.357143  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_66">
+    <path d="M 649.297187 258.396104  L 666.237758 258.396104  L 666.237758 217.201299  L 649.297187 217.201299  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_67">
+    <path d="M 671.015868 259.980519  L 687.95644 259.980519  L 687.95644 217.201299  L 671.015868 217.201299  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_68">
+    <path d="M 692.734549 258.396104  L 709.675121 258.396104  L 709.675121 233.045455  L 692.734549 233.045455  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_69">
+    <path d="M 714.453231 253.642857  L 731.393802 253.642857  L 731.393802 214.032468  L 714.453231 214.032468  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_70">
+    <path d="M 736.171912 266.318182  L 753.112484 266.318182  L 753.112484 221.954545  L 736.171912 221.954545  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_71">
+    <path d="M 757.890593 261.564935  L 774.831165 261.564935  L 774.831165 217.201299  L 757.890593 217.201299  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_72">
+    <path d="M 779.609275 263.149351  L 796.549846 263.149351  L 796.549846 166.5  L 779.609275 166.5  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_73">
+    <path d="M 801.327956 256.811688  L 818.268527 256.811688  L 818.268527 191.850649  L 801.327956 191.850649  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_74">
+    <path d="M 823.046637 252.058442  L 839.987209 252.058442  L 839.987209 182.344156  L 823.046637 182.344156  z " clip-path="url(#p8dbe3b7e23)" style="fill: #b8bcc2" />
+   </g>
+   <g id="patch_75">
+    <path d="M 62.892791 196.603896  L 79.833363 196.603896  L 79.833363 196.603896  L 62.892791 196.603896  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_76">
+    <path d="M 84.611473 136.396104  L 101.552044 136.396104  L 101.552044 133.227273  L 84.611473 133.227273  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_77">
+    <path d="M 106.330154 141.149351  L 123.270725 141.149351  L 123.270725 134.811688  L 106.330154 134.811688  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_78">
+    <path d="M 128.048835 126.88961  L 144.989407 126.88961  L 144.989407 118.967532  L 128.048835 118.967532  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_79">
+    <path d="M 149.767516 120.551948  L 166.708088 120.551948  L 166.708088 118.967532  L 149.767516 118.967532  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_80">
+    <path d="M 171.486198 164.915584  L 188.426769 164.915584  L 188.426769 163.331169  L 171.486198 163.331169  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_81">
+    <path d="M 193.204879 161.746753  L 210.145451 161.746753  L 210.145451 160.162338  L 193.204879 160.162338  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_82">
+    <path d="M 214.92356 155.409091  L 231.864132 155.409091  L 231.864132 152.24026  L 214.92356 152.24026  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_83">
+    <path d="M 236.642242 161.746753  L 253.582813 161.746753  L 253.582813 160.162338  L 236.642242 160.162338  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_84">
+    <path d="M 258.360923 136.396104  L 275.301495 136.396104  L 275.301495 130.058442  L 258.360923 130.058442  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_85">
+    <path d="M 280.079604 171.253247  L 297.020176 171.253247  L 297.020176 168.084416  L 280.079604 168.084416  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_86">
+    <path d="M 301.798286 171.253247  L 318.738857 171.253247  L 318.738857 169.668831  L 301.798286 169.668831  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_87">
+    <path d="M 323.516967 180.75974  L 340.457538 180.75974  L 340.457538 172.837662  L 323.516967 172.837662  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_88">
+    <path d="M 345.235648 185.512987  L 362.17622 185.512987  L 362.17622 182.344156  L 345.235648 182.344156  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_89">
+    <path d="M 366.95433 193.435065  L 383.894901 193.435065  L 383.894901 190.266234  L 366.95433 190.266234  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_90">
+    <path d="M 388.673011 220.37013  L 405.613582 220.37013  L 405.613582 217.201299  L 388.673011 217.201299  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_91">
+    <path d="M 410.391692 169.668831  L 427.332264 169.668831  L 427.332264 164.915584  L 410.391692 164.915584  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_92">
+    <path d="M 432.110374 214.032468  L 449.050945 214.032468  L 449.050945 198.188312  L 432.110374 198.188312  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_93">
+    <path d="M 453.829055 177.590909  L 470.769626 177.590909  L 470.769626 161.746753  L 453.829055 161.746753  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_94">
+    <path d="M 475.547736 215.616883  L 492.488308 215.616883  L 492.488308 191.850649  L 475.547736 191.850649  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_95">
+    <path d="M 497.266418 220.37013  L 514.206989 220.37013  L 514.206989 215.616883  L 497.266418 215.616883  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_96">
+    <path d="M 518.985099 190.266234  L 535.92567 190.266234  L 535.92567 182.344156  L 518.985099 182.344156  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_97">
+    <path d="M 540.70378 176.006494  L 557.644352 176.006494  L 557.644352 166.5  L 540.70378 166.5  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_98">
+    <path d="M 562.422462 210.863636  L 579.363033 210.863636  L 579.363033 198.188312  L 562.422462 198.188312  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_99">
+    <path d="M 584.141143 183.928571  L 601.081714 183.928571  L 601.081714 133.227273  L 584.141143 133.227273  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_100">
+    <path d="M 605.859824 193.435065  L 622.800396 193.435065  L 622.800396 155.409091  L 605.859824 155.409091  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_101">
+    <path d="M 627.578505 201.357143  L 644.519077 201.357143  L 644.519077 141.149351  L 627.578505 141.149351  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_102">
+    <path d="M 649.297187 217.201299  L 666.237758 217.201299  L 666.237758 142.733766  L 649.297187 142.733766  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_103">
+    <path d="M 671.015868 217.201299  L 687.95644 217.201299  L 687.95644 126.88961  L 671.015868 126.88961  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_104">
+    <path d="M 692.734549 233.045455  L 709.675121 233.045455  L 709.675121 174.422078  L 692.734549 174.422078  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_105">
+    <path d="M 714.453231 214.032468  L 731.393802 214.032468  L 731.393802 195.019481  L 714.453231 195.019481  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_106">
+    <path d="M 736.171912 221.954545  L 753.112484 221.954545  L 753.112484 207.694805  L 736.171912 207.694805  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_107">
+    <path d="M 757.890593 217.201299  L 774.831165 217.201299  L 774.831165 207.694805  L 757.890593 207.694805  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_108">
+    <path d="M 779.609275 166.5  L 796.549846 166.5  L 796.549846 142.733766  L 779.609275 142.733766  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_109">
+    <path d="M 801.327956 191.850649  L 818.268527 191.850649  L 818.268527 168.084416  L 801.327956 168.084416  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_110">
+    <path d="M 823.046637 182.344156  L 839.987209 182.344156  L 839.987209 168.084416  L 823.046637 168.084416  z " clip-path="url(#p8dbe3b7e23)" style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_111">
+    <path d="M 56.16 266.318182  L 846.72 266.318182  " style="fill: none; stroke: #d5deea; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Segoe UI'; text-anchor: start; fill: #091f40" x="56.16" y="105.6" transform="rotate(-0 56.16 105.6)">Agreement counts by year</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_112">
+    <path d="M 56.16 383.904  L 846.72 383.904  L 846.72 313.577554  L 56.16 313.577554  z " style="fill: #ffffff" />
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_9">
+     <g id="line2d_19" />
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #52647b" x="71.363077" y="397.307125" transform="rotate(-0 71.363077 397.307125)">1990</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_20" />
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #52647b" x="179.956484" y="397.307125" transform="rotate(-0 179.956484 397.307125)">1995</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_21" />
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #52647b" x="288.54989" y="397.307125" transform="rotate(-0 288.54989 397.307125)">2000</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_22" />
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #52647b" x="397.143297" y="397.307125" transform="rotate(-0 397.143297 397.307125)">2005</text>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_23" />
+     <g id="text_12">
+      <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #52647b" x="505.736703" y="397.307125" transform="rotate(-0 505.736703 397.307125)">2010</text>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_24" />
+     <g id="text_13">
+      <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #52647b" x="614.33011" y="397.307125" transform="rotate(-0 614.33011 397.307125)">2015</text>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_25" />
+     <g id="text_14">
+      <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #52647b" x="722.923516" y="397.307125" transform="rotate(-0 722.923516 397.307125)">2020</text>
+     </g>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_26" />
+     <g id="text_15">
+      <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #52647b" x="831.516923" y="397.307125" transform="rotate(-0 831.516923 397.307125)">2025</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_6">
+     <g id="line2d_27">
+      <path d="M 56.16 383.904  L 846.72 383.904  " clip-path="url(#p8f8db4d70a)" style="fill: none; stroke: #e8edf2; stroke-width: 0.7; stroke-linecap: square" />
+     </g>
+     <g id="line2d_28" />
+     <g id="text_16">
+      <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: end; fill: #52647b" x="50.16" y="387.605563" transform="rotate(-0 50.16 387.605563)">0%</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_29">
+      <path d="M 56.16 348.740777  L 846.72 348.740777  " clip-path="url(#p8f8db4d70a)" style="fill: none; stroke: #e8edf2; stroke-width: 0.7; stroke-linecap: square" />
+     </g>
+     <g id="line2d_30" />
+     <g id="text_17">
+      <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: end; fill: #52647b" x="50.16" y="352.442339" transform="rotate(-0 50.16 352.442339)">50%</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_31">
+      <path d="M 56.16 313.577554  L 846.72 313.577554  " clip-path="url(#p8f8db4d70a)" style="fill: none; stroke: #e8edf2; stroke-width: 0.7; stroke-linecap: square" />
+     </g>
+     <g id="line2d_32" />
+     <g id="text_18">
+      <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: end; fill: #52647b" x="50.16" y="317.279116" transform="rotate(-0 50.16 317.279116)">100%</text>
+     </g>
+    </g>
+    <g id="text_19">
+     <text style="font-size: 10px; font-family: 'Segoe UI'; text-anchor: middle; fill: #091f40" x="19.50375" y="348.740777" transform="rotate(-90 19.50375 348.740777)">Share</text>
+    </g>
+   </g>
+   <g id="line2d_33">
+    <path d="M 71.363077 379.109002  L 93.081758 374.469989  L 114.80044 368.770452  L 136.519121 369.519077  L 158.237802 371.673317  L 179.956484 371.816642  L 201.675165 371.117386  L 223.393846 368.834027  L 245.112527 374.314004  L 266.831209 377.900513  L 288.54989 373.355033  L 310.268571 375.699224  L 331.987253 374.787583  L 353.705934 368.73557  L 375.424615 365.55794  L 397.143297 369.353669  L 418.861978 370.069311  L 440.580659 368.986284  L 462.299341 368.834027  L 484.018022 377.310896  L 505.736703 371.778736  L 527.455385 373.648083  L 549.174066 377.735034  L 570.892747 361.801383  L 592.611429 374.437005  L 614.33011 371.673317  L 636.048791 377.042882  L 657.767473 372.561047  L 679.486154 374.829638  L 701.204835 367.159625  L 722.923516 366.855182  L 744.642198 383.904  L 766.360879 377.098228  L 788.07956 381.671417  L 809.798242 374.926126  L 831.516923 371.961796  " clip-path="url(#p8f8db4d70a)" style="fill: none; stroke: #c43e48; stroke-width: 1.8; stroke-linecap: square" />
+    <defs>
+     <path id="m9f5cd91284" d="M 0 1.5  C 0.397805 1.5 0.77937 1.341951 1.06066 1.06066  C 1.341951 0.77937 1.5 0.397805 1.5 0  C 1.5 -0.397805 1.341951 -0.77937 1.06066 -1.06066  C 0.77937 -1.341951 0.397805 -1.5 0 -1.5  C -0.397805 -1.5 -0.77937 -1.341951 -1.06066 -1.06066  C -1.341951 -0.77937 -1.5 -0.397805 -1.5 0  C -1.5 0.397805 -1.341951 0.77937 -1.06066 1.06066  C -0.77937 1.341951 -0.397805 1.5 0 1.5  z " style="stroke: #c43e48" />
+    </defs>
+    <g clip-path="url(#p8f8db4d70a)">
+     <use xlink:href="#m9f5cd91284" x="71.363077" y="379.109002" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="93.081758" y="374.469989" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="114.80044" y="368.770452" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="136.519121" y="369.519077" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="158.237802" y="371.673317" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="179.956484" y="371.816642" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="201.675165" y="371.117386" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="223.393846" y="368.834027" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="245.112527" y="374.314004" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="266.831209" y="377.900513" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="288.54989" y="373.355033" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="310.268571" y="375.699224" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="331.987253" y="374.787583" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="353.705934" y="368.73557" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="375.424615" y="365.55794" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="397.143297" y="369.353669" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="418.861978" y="370.069311" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="440.580659" y="368.986284" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="462.299341" y="368.834027" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="484.018022" y="377.310896" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="505.736703" y="371.778736" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="527.455385" y="373.648083" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="549.174066" y="377.735034" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="570.892747" y="361.801383" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="592.611429" y="374.437005" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="614.33011" y="371.673317" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="636.048791" y="377.042882" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="657.767473" y="372.561047" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="679.486154" y="374.829638" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="701.204835" y="367.159625" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="722.923516" y="366.855182" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="744.642198" y="383.904" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="766.360879" y="377.098228" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="788.07956" y="381.671417" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="809.798242" y="374.926126" style="fill: #c43e48; stroke: #c43e48" />
+     <use xlink:href="#m9f5cd91284" x="831.516923" y="371.961796" style="fill: #c43e48; stroke: #c43e48" />
+    </g>
+   </g>
+   <g id="patch_113">
+    <path d="M 56.16 383.904  L 846.72 383.904  " style="fill: none; stroke: #d5deea; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Segoe UI'; text-anchor: start; fill: #091f40" x="56.16" y="307.577554" transform="rotate(-0 56.16 307.577554)">Share of non-local agreements with these provisions</text>
+   </g>
+  </g>
+  <g id="text_21">
+   <text style="font-weight: 700; font-size: 16px; font-family: 'Segoe UI'; text-anchor: start; fill: #091f40" x="56.16" y="20.9605" transform="rotate(-0 56.16 20.9605)">Substantive refugee and displacement provisions, 1990-2025</text>
+  </g>
+  <g id="text_22">
+   <text style="font-size: 8px; font-family: 'Segoe UI'; text-anchor: start; fill: #52647b" x="56.16" y="425.8656" transform="rotate(-0 56.16 425.8656)">PA-X v10 (2026). Year from Dat; provision: GRefSubs = 1; local: Agtp = IntraLocal. Each AgtId counted once.</text>
+  </g>
+  <g id="text_23">
+   <text style="font-size: 8px; font-family: 'Segoe UI'; text-anchor: start; fill: #52647b" x="56.16" y="437.9184" transform="rotate(-0 56.16 437.9184)">Percentage = red agreements / (red + grey agreements) in each year. Hatched local agreements are excluded.</text>
+  </g>
+  <g id="legend_1">
+   <g id="patch_114">
+    <path d="M 58.212 48.338437  L 76.212 48.338437  L 76.212 42.038438  L 58.212 42.038438  z " style="fill: #c43e48" />
+   </g>
+   <g id="text_24">
+    <text style="font-size: 9px; font-family: 'Segoe UI'; text-anchor: start; fill: #091f40" x="83.412" y="48.338437" transform="rotate(-0 83.412 48.338437)">Non-local: substantive refugee/displacement provisions</text>
+   </g>
+   <g id="patch_115">
+    <path d="M 58.212 61.714688  L 76.212 61.714688  L 76.212 55.414688  L 58.212 55.414688  z " style="fill: #b8bcc2" />
+   </g>
+   <g id="text_25">
+    <text style="font-size: 9px; font-family: 'Segoe UI'; text-anchor: start; fill: #091f40" x="83.412" y="61.714688" transform="rotate(-0 83.412 61.714688)">Non-local: no substantive refugee/displacement provisions</text>
+   </g>
+   <g id="patch_116">
+    <path d="M 58.212 75.090937  L 76.212 75.090937  L 76.212 68.790937  L 58.212 68.790937  z " style="fill: url(#h5cf5177ec6); stroke: #707986; stroke-width: 0.45; stroke-linejoin: miter" />
+   </g>
+   <g id="text_26">
+    <text style="font-size: 9px; font-family: 'Segoe UI'; text-anchor: start; fill: #091f40" x="83.412" y="75.090937" transform="rotate(-0 83.412 75.090937)">Local agreements (excluded from the percentage)</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8dbe3b7e23">
+   <rect x="56.16" y="111.6" width="790.56" height="154.718182" />
+  </clipPath>
+  <clipPath id="p8f8db4d70a">
+   <rect x="56.16" y="313.577554" width="790.56" height="70.326446" />
+  </clipPath>
+ </defs>
+ <defs>
+  <pattern id="h5cf5177ec6" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="#f5f6f7" />
+   <path d="M -36 36  L 36 -36  M -33 39  L 39 -33  M -30 42  L 42 -30  M -27 45  L 45 -27  M -24 48  L 48 -24  M -21 51  L 51 -21  M -18 54  L 54 -18  M -15 57  L 57 -15  M -12 60  L 60 -12  M -9 63  L 63 -9  M -6 66  L 66 -6  M -3 69  L 69 -3  M 0 72  L 72 0  M 3 75  L 75 3  M 6 78  L 78 6  M 9 81  L 81 9  M 12 84  L 84 12  M 15 87  L 87 15  M 18 90  L 90 18  M 21 93  L 93 21  M 24 96  L 96 24  M 27 99  L 99 27  M 30 102  L 102 30  M 33 105  L 105 33  M 36 108  L 108 36  " style="fill: #707986; stroke: #707986; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter" />
+  </pattern>
+ </defs>
+<rect x="61.58967032967031" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="1990" data-with="3" data-without="41" data-local="0" data-total="44" data-percent="6.8182" aria-label="1990: 3 non-local agreements with substantive provisions; 41 without; 0 local agreements excluded. 6.8% of 44 non-local agreements."><title>1990: 3 non-local agreements with substantive provisions; 41 without; 0 local agreements excluded. 6.8% of 44 non-local agreements.</title></rect><rect x="83.30835164835158" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="1991" data-with="11" data-without="71" data-local="2" data-total="82" data-percent="13.4146" aria-label="1991: 11 non-local agreements with substantive provisions; 71 without; 2 local agreements excluded. 13.4% of 82 non-local agreements."><title>1991: 11 non-local agreements with substantive provisions; 71 without; 2 local agreements excluded. 13.4% of 82 non-local agreements.</title></rect><rect x="105.02703296703284" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="1992" data-with="17" data-without="62" data-local="4" data-total="79" data-percent="21.519" aria-label="1992: 17 non-local agreements with substantive provisions; 62 without; 4 local agreements excluded. 21.5% of 79 non-local agreements."><title>1992: 17 non-local agreements with substantive provisions; 62 without; 4 local agreements excluded. 21.5% of 79 non-local agreements.</title></rect><rect x="126.74571428571413" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="1993" data-with="18" data-without="70" data-local="5" data-total="88" data-percent="20.4545" aria-label="1993: 18 non-local agreements with substantive provisions; 70 without; 5 local agreements excluded. 20.5% of 88 non-local agreements."><title>1993: 18 non-local agreements with substantive provisions; 70 without; 5 local agreements excluded. 20.5% of 88 non-local agreements.</title></rect><rect x="148.46439560439538" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="1994" data-with="16" data-without="76" data-local="1" data-total="92" data-percent="17.3913" aria-label="1994: 16 non-local agreements with substantive provisions; 76 without; 1 local agreements excluded. 17.4% of 92 non-local agreements."><title>1994: 16 non-local agreements with substantive provisions; 76 without; 1 local agreements excluded. 17.4% of 92 non-local agreements.</title></rect><rect x="170.18307692307664" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="1995" data-with="11" data-without="53" data-local="1" data-total="64" data-percent="17.1875" aria-label="1995: 11 non-local agreements with substantive provisions; 53 without; 1 local agreements excluded. 17.2% of 64 non-local agreements."><title>1995: 11 non-local agreements with substantive provisions; 53 without; 1 local agreements excluded. 17.2% of 64 non-local agreements.</title></rect><rect x="191.90175824175793" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="1996" data-with="12" data-without="54" data-local="1" data-total="66" data-percent="18.1818" aria-label="1996: 12 non-local agreements with substantive provisions; 54 without; 1 local agreements excluded. 18.2% of 66 non-local agreements."><title>1996: 12 non-local agreements with substantive provisions; 54 without; 1 local agreements excluded. 18.2% of 66 non-local agreements.</title></rect><rect x="213.6204395604392" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="1997" data-with="15" data-without="55" data-local="2" data-total="70" data-percent="21.4286" aria-label="1997: 15 non-local agreements with substantive provisions; 55 without; 2 local agreements excluded. 21.4% of 70 non-local agreements."><title>1997: 15 non-local agreements with substantive provisions; 55 without; 2 local agreements excluded. 21.4% of 70 non-local agreements.</title></rect><rect x="235.33912087912043" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="1998" data-with="9" data-without="57" data-local="1" data-total="66" data-percent="13.6364" aria-label="1998: 9 non-local agreements with substantive provisions; 57 without; 1 local agreements excluded. 13.6% of 66 non-local agreements."><title>1998: 9 non-local agreements with substantive provisions; 57 without; 1 local agreements excluded. 13.6% of 66 non-local agreements.</title></rect><rect x="257.05780219780166" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="1999" data-with="7" data-without="75" data-local="4" data-total="82" data-percent="8.5366" aria-label="1999: 7 non-local agreements with substantive provisions; 75 without; 4 local agreements excluded. 8.5% of 82 non-local agreements."><title>1999: 7 non-local agreements with substantive provisions; 75 without; 4 local agreements excluded. 8.5% of 82 non-local agreements.</title></rect><rect x="278.776483516483" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2000" data-with="9" data-without="51" data-local="2" data-total="60" data-percent="15.0" aria-label="2000: 9 non-local agreements with substantive provisions; 51 without; 2 local agreements excluded. 15.0% of 60 non-local agreements."><title>2000: 9 non-local agreements with substantive provisions; 51 without; 2 local agreements excluded. 15.0% of 60 non-local agreements.</title></rect><rect x="300.49516483516425" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2001" data-with="7" data-without="53" data-local="1" data-total="60" data-percent="11.6667" aria-label="2001: 7 non-local agreements with substantive provisions; 53 without; 1 local agreements excluded. 11.7% of 60 non-local agreements."><title>2001: 7 non-local agreements with substantive provisions; 53 without; 1 local agreements excluded. 11.7% of 60 non-local agreements.</title></rect><rect x="322.2138461538455" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2002" data-with="7" data-without="47" data-local="5" data-total="54" data-percent="12.963" aria-label="2002: 7 non-local agreements with substantive provisions; 47 without; 5 local agreements excluded. 13.0% of 54 non-local agreements."><title>2002: 7 non-local agreements with substantive provisions; 47 without; 5 local agreements excluded. 13.0% of 54 non-local agreements.</title></rect><rect x="343.9325274725268" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2003" data-with="11" data-without="40" data-local="2" data-total="51" data-percent="21.5686" aria-label="2003: 11 non-local agreements with substantive provisions; 40 without; 2 local agreements excluded. 21.6% of 51 non-local agreements."><title>2003: 11 non-local agreements with substantive provisions; 40 without; 2 local agreements excluded. 21.6% of 51 non-local agreements.</title></rect><rect x="365.65120879120803" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2004" data-with="12" data-without="34" data-local="2" data-total="46" data-percent="26.087" aria-label="2004: 12 non-local agreements with substantive provisions; 34 without; 2 local agreements excluded. 26.1% of 46 non-local agreements."><title>2004: 12 non-local agreements with substantive provisions; 34 without; 2 local agreements excluded. 26.1% of 46 non-local agreements.</title></rect><rect x="387.3698901098893" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2005" data-with="6" data-without="23" data-local="2" data-total="29" data-percent="20.6897" aria-label="2005: 6 non-local agreements with substantive provisions; 23 without; 2 local agreements excluded. 20.7% of 29 non-local agreements."><title>2005: 6 non-local agreements with substantive provisions; 23 without; 2 local agreements excluded. 20.7% of 29 non-local agreements.</title></rect><rect x="409.08857142857056" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2006" data-with="12" data-without="49" data-local="3" data-total="61" data-percent="19.6721" aria-label="2006: 12 non-local agreements with substantive provisions; 49 without; 3 local agreements excluded. 19.7% of 61 non-local agreements."><title>2006: 12 non-local agreements with substantive provisions; 49 without; 3 local agreements excluded. 19.7% of 61 non-local agreements.</title></rect><rect x="430.8072527472518" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2007" data-with="7" data-without="26" data-local="10" data-total="33" data-percent="21.2121" aria-label="2007: 7 non-local agreements with substantive provisions; 26 without; 10 local agreements excluded. 21.2% of 33 non-local agreements."><title>2007: 7 non-local agreements with substantive provisions; 26 without; 10 local agreements excluded. 21.2% of 33 non-local agreements.</title></rect><rect x="452.52593406593303" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2008" data-with="12" data-without="44" data-local="10" data-total="56" data-percent="21.4286" aria-label="2008: 12 non-local agreements with substantive provisions; 44 without; 10 local agreements excluded. 21.4% of 56 non-local agreements."><title>2008: 12 non-local agreements with substantive provisions; 44 without; 10 local agreements excluded. 21.4% of 56 non-local agreements.</title></rect><rect x="474.2446153846143" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2009" data-with="3" data-without="29" data-local="15" data-total="32" data-percent="9.375" aria-label="2009: 3 non-local agreements with substantive provisions; 29 without; 15 local agreements excluded. 9.4% of 32 non-local agreements."><title>2009: 3 non-local agreements with substantive provisions; 29 without; 15 local agreements excluded. 9.4% of 32 non-local agreements.</title></rect><rect x="495.96329670329555" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2010" data-with="5" data-without="24" data-local="3" data-total="29" data-percent="17.2414" aria-label="2010: 5 non-local agreements with substantive provisions; 24 without; 3 local agreements excluded. 17.2% of 29 non-local agreements."><title>2010: 5 non-local agreements with substantive provisions; 24 without; 3 local agreements excluded. 17.2% of 29 non-local agreements.</title></rect><rect x="517.681978021977" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2011" data-with="7" data-without="41" data-local="5" data-total="48" data-percent="14.5833" aria-label="2011: 7 non-local agreements with substantive provisions; 41 without; 5 local agreements excluded. 14.6% of 48 non-local agreements."><title>2011: 7 non-local agreements with substantive provisions; 41 without; 5 local agreements excluded. 14.6% of 48 non-local agreements.</title></rect><rect x="539.4006593406582" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2012" data-with="5" data-without="52" data-local="6" data-total="57" data-percent="8.7719" aria-label="2012: 5 non-local agreements with substantive provisions; 52 without; 6 local agreements excluded. 8.8% of 57 non-local agreements."><title>2012: 5 non-local agreements with substantive provisions; 52 without; 6 local agreements excluded. 8.8% of 57 non-local agreements.</title></rect><rect x="561.1193406593394" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2013" data-with="11" data-without="24" data-local="8" data-total="35" data-percent="31.4286" aria-label="2013: 11 non-local agreements with substantive provisions; 24 without; 8 local agreements excluded. 31.4% of 35 non-local agreements."><title>2013: 11 non-local agreements with substantive provisions; 24 without; 8 local agreements excluded. 31.4% of 35 non-local agreements.</title></rect><rect x="582.8380219780207" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2014" data-with="7" data-without="45" data-local="32" data-total="52" data-percent="13.4615" aria-label="2014: 7 non-local agreements with substantive provisions; 45 without; 32 local agreements excluded. 13.5% of 52 non-local agreements."><title>2014: 7 non-local agreements with substantive provisions; 45 without; 32 local agreements excluded. 13.5% of 52 non-local agreements.</title></rect><rect x="604.5567032967019" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2015" data-with="8" data-without="38" data-local="24" data-total="46" data-percent="17.3913" aria-label="2015: 8 non-local agreements with substantive provisions; 38 without; 24 local agreements excluded. 17.4% of 46 non-local agreements."><title>2015: 8 non-local agreements with substantive provisions; 38 without; 24 local agreements excluded. 17.4% of 46 non-local agreements.</title></rect><rect x="626.2753846153831" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2016" data-with="4" data-without="37" data-local="38" data-total="41" data-percent="9.7561" aria-label="2016: 4 non-local agreements with substantive provisions; 37 without; 38 local agreements excluded. 9.8% of 41 non-local agreements."><title>2016: 4 non-local agreements with substantive provisions; 37 without; 38 local agreements excluded. 9.8% of 41 non-local agreements.</title></rect><rect x="647.9940659340645" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2017" data-with="5" data-without="26" data-local="47" data-total="31" data-percent="16.129" aria-label="2017: 5 non-local agreements with substantive provisions; 26 without; 47 local agreements excluded. 16.1% of 31 non-local agreements."><title>2017: 5 non-local agreements with substantive provisions; 26 without; 47 local agreements excluded. 16.1% of 31 non-local agreements.</title></rect><rect x="669.7127472527457" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2018" data-with="4" data-without="27" data-local="57" data-total="31" data-percent="12.9032" aria-label="2018: 4 non-local agreements with substantive provisions; 27 without; 57 local agreements excluded. 12.9% of 31 non-local agreements."><title>2018: 4 non-local agreements with substantive provisions; 27 without; 57 local agreements excluded. 12.9% of 31 non-local agreements.</title></rect><rect x="691.4314285714271" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2019" data-with="5" data-without="16" data-local="37" data-total="21" data-percent="23.8095" aria-label="2019: 5 non-local agreements with substantive provisions; 16 without; 37 local agreements excluded. 23.8% of 21 non-local agreements."><title>2019: 5 non-local agreements with substantive provisions; 16 without; 37 local agreements excluded. 23.8% of 21 non-local agreements.</title></rect><rect x="713.1501098901083" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2020" data-with="8" data-without="25" data-local="12" data-total="33" data-percent="24.2424" aria-label="2020: 8 non-local agreements with substantive provisions; 25 without; 12 local agreements excluded. 24.2% of 33 non-local agreements."><title>2020: 8 non-local agreements with substantive provisions; 25 without; 12 local agreements excluded. 24.2% of 33 non-local agreements.</title></rect><rect x="734.8687912087896" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2021" data-with="0" data-without="28" data-local="9" data-total="28" data-percent="0.0" aria-label="2021: 0 non-local agreements with substantive provisions; 28 without; 9 local agreements excluded. 0.0% of 28 non-local agreements."><title>2021: 0 non-local agreements with substantive provisions; 28 without; 9 local agreements excluded. 0.0% of 28 non-local agreements.</title></rect><rect x="756.5874725274708" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2022" data-with="3" data-without="28" data-local="6" data-total="31" data-percent="9.6774" aria-label="2022: 3 non-local agreements with substantive provisions; 28 without; 6 local agreements excluded. 9.7% of 31 non-local agreements."><title>2022: 3 non-local agreements with substantive provisions; 28 without; 6 local agreements excluded. 9.7% of 31 non-local agreements.</title></rect><rect x="778.306153846152" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2023" data-with="2" data-without="61" data-local="15" data-total="63" data-percent="3.1746" aria-label="2023: 2 non-local agreements with substantive provisions; 61 without; 15 local agreements excluded. 3.2% of 63 non-local agreements."><title>2023: 2 non-local agreements with substantive provisions; 61 without; 15 local agreements excluded. 3.2% of 63 non-local agreements.</title></rect><rect x="800.0248351648333" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2024" data-with="6" data-without="41" data-local="15" data-total="47" data-percent="12.766" aria-label="2024: 6 non-local agreements with substantive provisions; 41 without; 15 local agreements excluded. 12.8% of 47 non-local agreements."><title>2024: 6 non-local agreements with substantive provisions; 41 without; 15 local agreements excluded. 12.8% of 47 non-local agreements.</title></rect><rect x="821.7435164835146" y="111.60000000000001" width="19.54681318681314" height="272.30400000000003" fill="transparent" class="annual-year-hit" tabindex="0" role="button" data-year="2025" data-with="9" data-without="44" data-local="9" data-total="53" data-percent="16.9811" aria-label="2025: 9 non-local agreements with substantive provisions; 44 without; 9 local agreements excluded. 17.0% of 53 non-local agreements."><title>2025: 9 non-local agreements with substantive provisions; 44 without; 9 local agreements excluded. 17.0% of 53 non-local agreements.</title></rect></svg>
