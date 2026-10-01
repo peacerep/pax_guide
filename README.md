@@ -4,7 +4,7 @@
 
 This is a draft guide for reviewing PA-X explanations, worked questions, search guidance and source links. It is labelled **Review edition** throughout; it is not a replacement for the published PA-X codebooks.
 
-The site has two parts: the [guide](https://peacerep.github.io/pax_guide/) and a [terminology reference](https://peacerep.github.io/pax_guide/terminology.html). The three worked-question videos open on YouTube. A reading-edition PDF is available from the guide.
+The site has a [guide](https://peacerep.github.io/pax_guide/), a [terminology reference](https://peacerep.github.io/pax_guide/terminology.html), and a bundled copy of the Messy Peace Processes timeline build for the interactive example. The three worked-question videos open on YouTube. A reading-edition PDF is available from the guide.
 
 ## Suggested review points
 

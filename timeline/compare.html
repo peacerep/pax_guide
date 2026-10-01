@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Compare trajectories through peace negotiations." />
+    <title>Compare peace process trajectories | PA-X</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="./assets/compare-BKjUU8sg.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/export-assets-CwcfQZ4B.js">
+    <link rel="stylesheet" crossorigin href="./assets/compare-Bbjwapna.css">
+  </head>
+  <body>
+    <main class="comparison-page">
+      <header class="comparison-header">
+        <a class="comparison-logo" href="./" aria-label="Back to the messy timeline"><img src="https://peacerep.github.io/logos/img/Pax_nobg.png" alt="PA-X"></a>
+        <div>
+          <a class="comparison-back" href="./">← Back to timeline</a>
+          <h1>Compare peace process trajectories</h1>
+          <p>Compare how formal agreements move between stages. A similar shape does not imply a similar context or outcome.</p>
+        </div>
+        <button id="compare-guide-toggle" class="header-guide" type="button" aria-controls="compare-guide" aria-expanded="false" title="Open the comparison guide">How to compare</button>
+      </header>
+
+      <section class="comparison-controls" aria-label="Comparison controls">
+        <div class="process-selection">
+          <div class="process-inputs">
+            <div class="process-selection-heading">
+              <span id="process-picker-label">Choose up to four peace processes</span>
+            </div>
+            <label class="process-search-label" for="process-search">Find a process</label>
+            <input id="process-search" type="search" placeholder="Type a process name" autocomplete="off" />
+            <div class="comparison-picker-row">
+              <div id="process-picker" class="process-picker" role="group" aria-labelledby="process-picker-label" aria-describedby="process-help"></div>
+              <p id="process-help">Tick a checkbox to add a process and clear it to remove the process. Selected processes can also be removed using the controls alongside.</p>
+            </div>
+          </div>
+          <div id="selected-processes" class="selected-processes" aria-live="polite"></div>
+        </div>
+      </section>
+      <section class="visualisation-controls" aria-label="Visualisation options">
+        <span>Visualisation options</span>
+        <div class="comparison-settings">
+          <fieldset class="comparison-mode">
+            <legend>Align timelines by</legend>
+            <label><input type="radio" name="mode" value="relative" checked> Time since first agreement</label>
+            <label><input type="radio" name="mode" value="calendar"> Calendar date</label>
+          </fieldset>
+          <label class="comparison-toggle"><input id="overlay-toggle" type="checkbox"> Overlay trajectories</label>
+        </div>
+        <div class="visualisation-actions">
+          <button id="share-comparison" type="button" title="Copy a link to this comparison">Share comparison</button>
+          <details class="export-menu">
+            <summary title="Open export options">Export</summary>
+            <div><button id="export-png" type="button" title="Download the comparison chart as a PNG image">Download PNG</button><button id="export-csv" type="button" title="Download the selected process data as a CSV file">Download CSV</button></div>
+          </details>
+          <button id="about-toggle" type="button" aria-controls="comparison-info" aria-expanded="false" title="Open information about this comparison">About this comparison</button>
+        </div>
+      </section>
+      <p id="action-message" class="action-message" role="status" aria-live="polite"></p>
+
+      <section class="comparison-layout">
+        <div class="comparison-chart-wrap">
+          <div id="comparison-status" class="comparison-status" role="status">Loading processes…</div>
+          <div id="comparison-chart" class="comparison-chart" hidden></div>
+          <div id="comparison-tooltip" class="comparison-tooltip" hidden></div>
+        </div>
+        <aside class="comparison-detail" aria-live="polite">
+          <h2>Agreement details</h2>
+          <p id="comparison-detail-empty">Select an agreement marker to inspect it.</p>
+          <div id="comparison-detail-content" hidden></div>
+        </aside>
+      </section>
+
+      <section aria-labelledby="comparison-summary-title">
+        <h2 id="comparison-summary-title">Selected processes</h2>
+        <div id="comparison-summary" class="comparison-summary" aria-live="polite"></div>
+      </section>
+    </main>
+    <aside id="comparison-info" class="info-drawer" role="dialog" aria-labelledby="comparison-info-title" hidden>
+      <div class="info-drawer-header"><h2 id="comparison-info-title">About this comparison</h2><button id="about-close" type="button" aria-label="Close information" title="Close information">×</button></div>
+      <section><h3>How to read it</h3><p>Each marker is a formal agreement in PA-X. The vertical position represents its agreement stage; it is not a measure of the quality, success, or outcome of a peace process.</p><p>Relative time begins at each process’s first recorded agreement. Calendar time shows the agreements at their recorded dates.</p></section>
+      <section><h3>Similarity suggestions</h3><p>Suggestions compare recorded stage trajectories, agreement count, duration, and stage reversals. They do not compare political context, parties, or outcomes.</p></section>
+      <section><h3>Data and citation</h3><p>This comparison uses the PA-X Peace Agreements Dataset, Version 10: 2,257 agreements in more than 170 peace processes, covering 1990 to the end of 2025.</p><p>To cite the data:</p><blockquote id="citation-text">Bell, C., &amp; Badanjak, S. (2019). Introducing PA-X: A new peace agreement database and dataset. Journal of Peace Research, 56(3), 452–466. Available at https://www.peaceagreements.org/</blockquote><button id="copy-citation" type="button" title="Copy the PA-X citation">Copy citation</button><p><a href="https://www.peaceagreements.org/downloads/" target="_blank" rel="noopener noreferrer">PA-X data downloads and citation guidance</a></p></section>
+    </aside>
+    <aside id="compare-guide" class="compare-guide" role="dialog" aria-labelledby="compare-guide-title" tabindex="-1" hidden>
+      <div id="compare-guide-progress" class="compare-guide-progress"></div>
+      <div id="compare-guide-visual" class="compare-guide-visual"></div>
+      <h2 id="compare-guide-title"></h2>
+      <div id="compare-guide-copy" class="compare-guide-copy"></div>
+      <div class="compare-guide-actions">
+        <button id="compare-guide-close" type="button" title="Close the comparison guide">Close</button>
+        <button id="compare-guide-back" type="button" title="Go to the previous guide step">Back</button>
+        <button id="compare-guide-next" type="button" title="Go to the next guide step">Next</button>
+      </div>
+    </aside>
+  </body>
+</html>

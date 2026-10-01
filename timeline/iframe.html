@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A visualisation of trajectories through peace negotiations." />
+    <title>Back and Forth in Peace Negotiations</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; }</style>
+    <script type="module" crossorigin src="./assets/export-assets-CwcfQZ4B.js"></script>
+    <script type="module" crossorigin src="./assets/main-BDW44D9r.js"></script>
+  </head>
+  <body>
+    <messy-timeline data-url="data/timeline-v1.json" fallback-data-url="data/pax_all_agreements_v10.csv" pax-base-url="https://www.peaceagreements.org"></messy-timeline>
+    <script>
+      const processId = new URLSearchParams(window.location.search).get("process");
+      if (/^\d+$/.test(processId || "")) {
+        document.querySelector("messy-timeline").setAttribute("process-id", processId);
+      }
+    </script>
+  </body>
+</html>
